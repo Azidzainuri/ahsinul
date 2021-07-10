@@ -32,4 +32,7 @@ $(document).ready(function ($) {
     $("#search-terms").click(function () {
         window.location.href = linkSearch;
     });
+   
+function LMcheckCheckbox(){document.querySelectorAll(".checkbox").forEach(function(e){"darkmode"===localStorage.getItem("mode")?e.checked=!0:e.checked=!1})}function darkMode(){localStorage.setItem("mode","darkmode"===localStorage.getItem("mode")?"light":"darkmode"),"darkmode"===localStorage.getItem("mode")?document.querySelector("body").classList.add("darkmode"):document.querySelector("body").classList.remove("darkmode"),LMcheckCheckbox()}function darkModeHide(){document.querySelectorAll(".darkmode-switch").forEach(function(e){e.parentNode.removeChild(e)})}LMcheckCheckbox(),"undefined"!=typeof simpleBliSetting&&void 0!==simpleBliSetting.tombolDarkmode||(simpleBliSetting={tombolDarkmode:!0}),0==simpleBliSetting.tombolDarkmode&&darkModeHide();
+function bliblibeli(){var t=document.getElementById("belisekarang");"block"===t.style.display?t.style.display="none":t.style.display="block";}
 });
