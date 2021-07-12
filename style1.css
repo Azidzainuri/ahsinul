@@ -1,0 +1,1083 @@
+
+@font-face{font-family:Roboto;font-style:normal;font-weight:400;font-display:swap;src:local('Roboto'),local('Roboto-Regular'),local('sans-serif'),url(https://fonts.gstatic.com/s/roboto/v20/KFOmCnqEu92Fr1Mu7GxKKTU1Kvnz.woff2) format('woff2');unicode-range:U+0100-024F,U+0259,U+1E00-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF}@font-face{font-family:Roboto;font-style:normal;font-weight:400;font-display:swap;src:local('Roboto'),local('Roboto-Regular'),local('sans-serif'),url(https://fonts.gstatic.com/s/roboto/v20/KFOmCnqEu92Fr1Mu4mxKKTU1Kg.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}@font-face{font-family:Roboto;font-style:normal;font-weight:700;font-display:swap;src:local('Roboto Bold'),local('Roboto-Bold'),local('sans-serif'),url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmWUlfChc4AMP6lbBP.woff2) format('woff2');unicode-range:U+0100-024F,U+0259,U+1E00-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF}@font-face{font-family:Roboto;font-style:normal;font-weight:700;font-display:swap;src:local('Roboto Bold'),local('Roboto-Bold'),local('sans-serif'),url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmWUlfBBc4AMP6lQ.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
+
+/* -----------------------------------------------
+Blogger Template Style
+Name:     Abihilmastore Blogger
+Version:  1.7.2 (Update 1 Oktober 2021)
+Designer: Achsinulumam
+----------------------------------------------- */
+/*! ini normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+.CSS_LIGHTBOX{z-index:9999!important}.CSS_LAYOUT_COMPONENT{color:transparent}html{font:normal normal 16px effra, Helvetica, Arial, sans-serif}
+body{background:#ffffff;color:#444444;counter-reset:my-sec-counter;font-family:effra,Helvetica,Arial,sans-serif!important}
+html{line-height:1.15;-webkit-text-size-adjust:100%}main{display:block}h1{font-size:2em;margin:.67em 0}hr{-webkit-box-sizing:content-box;box-sizing:content-box;height:0;overflow:visible}pre{font-family:monospace,monospace;font-size:1em}a{background-color:transparent}abbr[title]{border-bottom:none;text-decoration:underline;-webkit-text-decoration:underline dotted;text-decoration:underline dotted}b,strong{font-weight:bolder}code,kbd,samp{font-family:monospace,monospace;font-size:1em}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}img{border-style:none}button,input,optgroup,select,textarea{font-family:inherit;font-size:100%;line-height:1.15;margin:0}button,input{overflow:visible}button,select{text-transform:none}[type=button],[type=reset],[type=submit],button{-webkit-appearance:button}[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner,button::-moz-focus-inner{border-style:none;padding:0}[type=button]:-moz-focusring,[type=reset]:-moz-focusring,[type=submit]:-moz-focusring,button:-moz-focusring{outline:1px dotted ButtonText}fieldset{padding:.35em .75em .625em}legend{-webkit-box-sizing:border-box;box-sizing:border-box;color:inherit;display:table;max-width:100%;padding:0;white-space:normal}progress{vertical-align:baseline}textarea{overflow:auto}[type=checkbox],[type=radio]{-webkit-box-sizing:border-box;box-sizing:border-box;padding:0}[type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}[type=search]::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}details{display:block}summary{display:list-item}[hidden],template{display:none}.buttonDownload{background:#383f4a}a:link{text-decoration:none;color:#383f4a}a:visited{color:#2674a6}a:hover{color:#2674a6}.clear{clear:both}.post-title,.post-title a{color:#333333}.post-title a:hover{color:#2674a6}body{font-size:16px;font-size:1rem;line-height:1.575;padding:0;margin:0;overflow-y:scroll;position:relative}blockquote{background:rgba(153,163,173,.08);border-left:5px solid rgba(121,128,136,.07);padding:15px 20px;font-style:italic;margin:1.5625rem 0 1.5625rem 2rem}@media only screen and (max-width:480px){blockquote{margin:1.5625rem 0;padding:10px 15px}}ol,ul{margin:1.5625rem 0;padding-left:3rem}@media only screen and (max-width:480px){ol,ul{padding-left:1.5625rem}}.blur-up,.lazyload{opacity:.3;-webkit-transition:opacity .3s;transition:opacity .3s}.blur-up.lazyloaded,.lazyload.show{opacity:1}#header .widget img.lazyload{min-width:160px}.template-settings{visibility:hidden;height:0}.navbarrr{display:none}iframe{width:100%;border:0}img,table{max-width:100%}img,table{height:auto}table[border="1"]{border-collapse:collapse}table[border="1"] td{text-align:left;padding:3px 10px}table[border="1"] td,table[border="1"] th{vertical-align:top;font-size:14px;font-size:.875rem;border:1px solid rgba(0,0,0,.23)}table[border="1"] th{text-align:center;font-weight:700;padding:5px 10px}
+@keyframes showhide{from{transform:scale(.5);opacity:0}}@keyframes showchat{from{transform:scale(0);opacity:0}}
+.slideInLeft{-webkit-animation-name:slideInLeft;animation-name:slideInLeft;-webkit-animation-duration:1s;animation-duration:1s;-webkit-animation-fill-mode:both;animation-fill-mode:both}@-webkit-keyframes slideInLeft{0%{-webkit-transform:translateX(-100%);transform:translateX(-100%);visibility:visible}100%{-webkit-transform:translateX(0);transform:translateX(0)}}@keyframes slideInLeft{0%{-webkit-transform:translateX(-100%);transform:translateX(-100%);visibility:visible}100%{-webkit-transform:translateX(0);transform:translateX(0)}}
+.slideInRight{-webkit-animation-name:slideInRight;animation-name:slideInRight;-webkit-animation-duration:2s;animation-duration:2s;-webkit-animation-fill-mode:both;animation-fill-mode:both}@-webkit-keyframes slideInRight{0%{-webkit-transform:translateX(100%);transform:translateX(100%);visibility:visible}100%{-webkit-transform:translateX(0);transform:translateX(0)}}@keyframes slideInRight{0%{-webkit-transform:translateX(100%);transform:translateX(100%);visibility:visible}100%{-webkit-transform:translateX(0);transform:translateX(0)}}
+#header-content,#wrapper,.bliblinavmenu,#blibli-content-kredit,#blibli-relatedpost-product,#blibli-informasi-produk,#footer-wrap{max-width:1200px}
+#header-wrap,.blibli-clock-container{background:#0094da}
+.blibli-background-color{position:absolute;background-color:#0094da;top:0;width:100%;height:250px;z-index:2}
+#content-wrap,#content-wrap-produk-index,#bliblinavmenu-widget-sidebar,#blibli-halaman-bawah-utama,#wrapper{background:#ffffff}
+.blibli-title-atas-post h2,.related-post h4,.blibli-produk-keterangan-title-share{background:#ffffff}
+.is-multipleitem #content-wrap .blibli-status-produk,.produk-terlaris-pemisah .blibli-produk-terlaris-pertama .blibli-status-produk,.produk-terlaris-pemisah .blibli-produk-terlaris-pertama .blibli-discount,.produk-terlaris-pemisah .blibli-produk-terlaris-content .blibli-status-produk{background:#038ce3;color:#ffffff}.blibliwidget-title{width:100%;margin:0 0 25px;position:relative;text-align:center;line-height:16px;line-height:1rem;min-height:16px;min-height:1rem}.blibliwidget-title h3.title{position:relative;z-index:1;display:inline-block;margin:0;padding:0 10px;font-size:16px;font-size:1rem}.title-description{position:fixed;top:-3000px;left:-3000px;font-size:0!important}#comments2{width:100%!important}
+/*Header Utama*/
+.fixed-blibli #header-blibli-utama{position:fixed;top:0;left:0;width:100%;z-index:999;}
+#header-blibli-utama{position:relative;z-index:99}
+#header-blibli-utama #header-content{min-height:55px}
+#header-blibli-utama,#header-blibli-utama #header-wrap{width:100%}
+#header-blibli-utama #header-content{position:relative;margin:0 auto;padding:0 36px;-webkit-box-sizing:border-box;box-sizing:border-box;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:horizontal;-webkit-box-direction:normal;-ms-flex-flow:row wrap;flex-flow:row wrap;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:end;-ms-flex-pack:end;justify-content:flex-end}
+#header-blibli-utama #header-content:after{content:"";min-height:inherit;font-size:0;display:block}
+#header{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:horizontal;-webkit-box-direction:normal;-ms-flex-flow:row wrap;flex-flow:row wrap;-webkit-box-flex:1;-ms-flex:1 1 auto;flex:1 1 auto;max-width:100%;-webkit-box-align:center;-ms-flex-align:center;align-items:center}
+#header .widget{width:130px;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:horizontal;-webkit-box-direction:normal;-ms-flex-flow:row wrap;flex-flow:row wrap;-webkit-box-flex:1;-ms-flex:1 1 auto;flex:1 1 auto;-webkit-box-align:center;-ms-flex-align:center;align-items:center;color: #ffffff}
+#header .widget a{color: #ffffff;-webkit-transition:all .2s;transition:all .2s}
+#header .widget h1.blog-title,#header .widget h2.blog-title{margin:5px 25px 5px 0;text-transform:uppercase;font-size:28px;font-size:1.75rem;padding:0;line-height:32px;line-height:2rem}
+#header .widget .hide-title .blog-title{text-indent:-9999px;visibility:hidden;margin:0;padding:0;height:0}
+#header .widget p.title-description{font-size:14px;font-size:.875rem;margin:5px 0;color:#ffffff}
+#header .widget img{display:block;height:30px;width:auto;margin:5px 25px 5px 0}
+@media only screen and (max-width:900px){.blibli-background-color{height:210px}#header-blibli-utama #header-content{padding:3px 10px}}
+@media only screen and (max-width:480px){.blibli-background-color{height:165px}}
+/*Header Menu Kanan Kiri*/
+#header-blibli-navkirikanan{background:#007db8;position:relative;min-height:1px;z-index:9}
+#bliblinavmenu-wrap{position:relative;max-width:1200px;margin:0 auto}
+#header-blibli-navkirikanan .bliblinavmenu .blibli-navouter{min-height:30px}
+#header-blibli-navkirikanan .bliblinavmenu .blibli-navouter:after{content:"";min-height:inherit;font-size:0}
+#header-blibli-navkirikanan #bliblinavmenu-wrap{width:100%;display:flex}
+#header-blibli-navkirikanan .bliblinavmenu{margin:0 auto;padding:0 36px;-webkit-box-sizing:border-box;box-sizing:border-box}
+#header-blibli-navkirikanan .bliblinavmenu .blibli-navouter{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:horizontal;-webkit-box-direction:normal;-ms-flex-flow:row wrap;flex-flow:row wrap;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:start;-ms-flex-pack:start;justify-content:flex-start}
+.blibli-menukiri{position:relative;display:flex;-webkit-box-pack:start;-ms-flex-pack:start;justify-content:flex-start;order:1;max-width:50%;flex:1 1 50%}
+.blibli-menukanan{position:relative;display:flex;display:flex;-webkit-box-pack:end;-ms-flex-pack:end;justify-content:flex-end;order:2;flex:1 1 50%;max-width:50%}
+.blibli-menukiri .blibliwidget-title,.blibli-menukanan .blibliwidget-title,sp,sp.hapus,.hapus{display:none!important}
+.blibli-menukiri ul,.blibli-menukanan ul{padding:0 15px;margin:0}
+.blibli-menukiri li,.blibli-menukanan li{list-style:none;padding:0;margin:0;border:0;display:inline-block}
+.blibli-menukiri a,.blibli-menukanan a{color:#ffffff;font-size:14px;padding:5px 10px;display:inline-block}
+@media only screen and (max-width:900px){#header-blibli-navkirikanan .bliblinavmenu{padding:0 30px}}
+@media only screen and (max-width:899px){#header-blibli-navkirikanan #bliblinavmenu-wrap{display:none}#header-blibli-navkirikanan{height:1px;background:#0094da}}
+/*Kategori*/
+.kategori-dropdown{margin-right:15px}
+#kategori-content-dropdown .PageList,#kategori-content-dropdown .PageList .widget-title,#kategori-content-dropdown .buka,.tombol-kategori{display:none}
+#kategori-content-dropdown .buka{position:absolute;background:#ffffff;padding:10px;margin:0;max-height:300px;overflow:hidden;overflow-y:auto;box-shadow:0px 3px 4px 0px rgba(0,0,0,0.1)}
+#kategori-content-dropdown .Label,#kategori-content-dropdown .PageList{float:left}
+#kategori-content-dropdown .Label .widget-title{position:relative;margin:0 10px;padding:0}
+#kategori-content-dropdown .Label .widget-title h3.title{color:#ffffff;font-size:16px;font-weight:500;margin-left:25px}
+#kategori-content-dropdown .Label .widget-title svg{position:absolute;width:20px;height:20px;vertical-align:middle;margin-top:2px}
+#kategori-content-dropdown .Label .widget-title path{fill:#fff;}
+#kategori-content-dropdown .Label ul li{list-style:none;padding:0;margin:0;border:0;display:block}
+#kategori-content-dropdown .Label ul li a{color:#444444;font-size:14px;padding:5px 8px;display:block}
+#kategori-content-dropdown .PageList ul{padding:10px 0;margin:0 8px}
+#kategori-content-dropdown .PageList ul li{list-style:none;padding:0;margin:0;border:0;display:inline-block}
+#kategori-content-dropdown .PageList ul li a{color:#ffffff;font-size:14px;padding:5px 8px;display:inline-block}
+#kategori-content-dropdown .Label ul li.has-sub{padding-right:30px}
+#kategori-content-dropdown .Label ul li.has-sub span.submenu-button{position:absolute;z-index:99;right:0;cursor:pointer}
+#kategori-content-dropdown .Label ul li.has-sub span.submenu-button:after{content:'';background:url("data:image/svg+xml,%3Csvg viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z' fill='%232f303f'/%3E%3C/svg%3E") no-repeat center center;position:absolute;top:0;right:0;margin:7px 15px 14px;width:20px;height:20px;display:inline-block;vertical-align:middle;margin-left:15px;transition:all .3s ease}
+#kategori-content-dropdown .Label ul li.has-sub span.submenu-button.submenu-opened:after{transform:rotate(180deg);}
+#kategori-content-dropdown .Label ul li ul{margin:0;padding-left:5px;display:none}
+@media only screen and (max-width:899px){
+#kategori-content-dropdown .PageList{display:block;}
+#kategori-content-dropdown .buka-kategori:after{top:0;right:5px;background:url("data:image/svg+xml,%3Csvg viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z' fill='%23444'/%3E%3C/svg%3E") no-repeat center center}
+#kategori-content-dropdown .Label,#kategori-content-dropdown .PageList{float:none}
+#kategori-content-dropdown .buka{position:relative;background:#ffffff;padding:0;margin:0;max-height:none;overflow:hidden;overflow-y:visible;box-shadow:none;display:block!important}
+#kategori-content-dropdown .Label .widget-title h3.title{color:#444444;font-size:16px;font-weight:600}
+#kategori-content-dropdown .Label .widget-title,#kategori-content-dropdown .Label ul li a,#kategori-content-dropdown .PageList ul li a{display:inline-block;padding:10px;font-size:14px;font-size:.875rem;text-align:left;margin:0;margin-bottom:10px;width:90%;color:#383f4a;border-radius:5px;-webkit-box-shadow:0 0 24px -4px rgba(0,0,0,.12);box-shadow:0 0 24px -4px rgba(0,0,0,.12)}
+#kategori-content-dropdown .Label .widget-title svg path{fill:#444444;}
+#kategori-content-dropdown .widget-title h3.title{padding:0;margin:0;}
+#kategori-content-dropdown{background:#fff;padding:5px 22px 22px;overflow-y:auto;height:100%;-webkit-box-sizing:border-box;box-sizing:border-box}
+#kategori-content-dropdown .Label ul li.has-sub{padding-right:0}
+#kategori-content-dropdown .Label ul li.has-sub span.submenu-button:after{margin:12px 15px 14px}
+#kategori-content-dropdown .PageList ul{padding:0;margin:0}
+#kategori-content-dropdown .PageList ul li{display:block}
+.kategori-dropdown.active{-webkit-transform:translateX(0);transform:translateX(0)}
+.kategori-dropdown{position:fixed;width:100%;max-width:300px;z-index:99;height:100%;height:100vh;top:0;left:0;margin-right:0;-webkit-transform:translateX(-101%);transform:translateX(-101%);-webkit-transition:-webkit-transform .2s ease-in-out;transition:-webkit-transform .2s ease-in-out;transition:transform .2s ease-in-out;transition:transform .2s ease-in-out,-webkit-transform .2s ease-in-out}
+#kategori-content-dropdown .buka-kategori:after{margin:10px 0;}
+#kategori-content-dropdown ul{margin:0;padding:0}
+#kategori-content-dropdown ul li{list-style:none;display:block;font-weight:400;text-transform:none;font-size:14px;font-size:.875rem}
+.tombol-kategori{display:block;padding:0 10px;overflow: hidden;position:relative;background:#ffffff;text-align:right;}
+.closebtn{display:block;position:relative;padding:10px;height:20px;}
+.button{position:relative;width:10px;height:20px;margin-left:15px;order:4;cursor:pointer;z-index:2;outline:0}
+span.mline1,span.mline2,span.mline3{position:absolute;left:0;display:block;height:5px;width:5px;background:#ffffff;content:'';border-radius:5px;transition:all .2s}
+span.mline1{top:0}span.mline2{top:7px}span.mline3{top:14px}
+}
+/*Notifikasi*/
+.icon-notifikasi{background:transparent;cursor:pointer;margin-left:15px;-webkit-box-ordinal-group:3;-ms-flex-order:2;order:2;padding:6px;border-radius:18px;height:25px;width:25px;-webkit-transition:all .2s;transition:all .2s;}
+.icon-notifikasi path{fill:#ffffff}
+.icon-notifikasi svg{width:100%;height:100%;vertical-align:middle}
+.icon-notifikasi:hover{background:rgba(0,0,0,.09)}
+.bliblinotifikasi{display:none;visibility:hidden;opacity:0;background-color:rgba(0,0,0,.5);position:fixed!important;top:0;left:0;right:0;bottom:0;margin:0;width:100%;height:100%;overflow-y:auto;padding:10px 0;z-index:99999999999;-webkit-transition:.2s;-moz-transition:.2s;transition:.2s;animation-name:showhide;animation-duration:1.5s;transform:scale(1)}
+.bliblinotifikasi.active{display:block;visibility:visible;opacity:9;}
+#blibli-widget-notifikasi{top:calc(50% - 130px);position:absolute;right:0;left:0;text-align:center;margin:auto}
+#bliblinotifikasi .blibliwidget-title{display:block;vertical-align:middle;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;font-size:110%}
+#bliblinotifikasi .blibliwidget-title h3.title{color:#ffffff}
+#bliblinotifikasi span.caption{color:#ffffff;font-size:89%;text-align:center}
+#bliblinotifikasi span a{background-color:#ffffff;padding:10px 5px;cursor:pointer}
+@media only screen and (max-width:900px){.icon-notifikasi.dekstop{display:none}.icon-notifikasi.close{display:inline-block;width:10px;height:10px;border-radius:0;}.icon-notifikasi{display:block;margin-left:0;margin:0 auto;}.icon-notifikasi path{fill:#444444}
+.icon-notifikasi svg{width:22px;height:22px;vertical-align:middle}}
+/*Search Button*/
+.iconsearch-label{background:transparent;cursor:pointer;margin-left:15px;-webkit-box-ordinal-group:3;-ms-flex-order:2;order:2;padding:6px;border-radius:18px;height:25px;width:25px;-webkit-transition:all .2s;transition:all .2s;display:none}
+.iconsearch-label path{fill:#ffffff}
+.iconsearch-label svg{width:100%;height:100%;vertical-align:middle}
+.iconsearch-label:hover{background:rgba(0,0,0,.09)}
+.iconsearch-label.close{display:none;}
+div#searchcontainer{position:relative;width:60%}
+div#searchcontainer form input[type=text]{width:90%;top:0;left:0;z-index:99;padding:10px;border:0;border-bottom:2px solid rgba(255,255,255,.38);outline:0;font-size:28px;font-size:1.75rem;background:0 0;color:#fff;text-align:center}
+div#searchcontainer form input::-webkit-input-placeholder{color:#fff;opacity:.5}
+div#searchcontainer form input::-moz-placeholder{color:#fff;opacity:.5}
+div#searchcontainer form input:-ms-input-placeholder{color:#fff;opacity:.5}
+div#searchcontainer form input::-ms-input-placeholder{color:#fff;opacity:.5}
+div#searchcontainer form input::placeholder{color:#fff;opacity:.5}
+div#searchcontainer form input:-ms-input-placeholder{color:#fff;opacity:.5}
+div#searchcontainer form input::-ms-input-placeholder{color:#fff;opacity:.5}
+@media only screen and (max-width:1100px){div#searchcontainer{width:50%}}
+@media only screen and (max-width:900px){div#searchcontainer{width:70%}}
+@media only screen and (max-width:899px){
+.search{background:#f1f1f1;color:#444444;}
+.live-search{margin-top:10px!important;}
+.iconsearch-label{display:block;}
+.iconsearch-label.close{position:absolute;background:#ffffff;top:10px;right:0;width:100px;display:block;margin:auto;border-radius:0;z-index:99}
+div#searchcontainer{position:fixed;width:100%;height:100%;z-index:100;display:block;background:rgb(255, 255, 255);left:-100%;top:0;padding-top:0;opacity:0;cursor:pointer;text-align:center;-webkit-transform:scale(.9) translate3d(0,-50px,0);transform:scale(.9) translate3d(0,-50px,0);-webkit-transition:-webkit-transform .3s,opacity .3s,left 0s .3s;-webkit-transition:opacity .3s,left 0s .3s,-webkit-transform .3s;transition:opacity .3s,left 0s .3s,-webkit-transform .3s;transition:transform .3s,opacity .3s,left 0s .3s;transition:transform .3s,opacity .3s,left 0s .3s,-webkit-transform .3s;}
+div#searchcontainer form{opacity:0;-webkit-transform:translate3d(0,-20px,0);transform:translate3d(0,-20px,0);-webkit-transition:all .3s 0s;transition:all .3s 0s}
+div#searchcontainer.opensearch{left:0;opacity:1;-webkit-transform:scale(1) translate3d(0,0,0);transform:scale(1) translate3d(0,0,0);-webkit-transition:-webkit-transform .3s,opacity .3s,left 0s 0s;-webkit-transition:opacity .3s,left 0s 0s,-webkit-transform .3s;transition:opacity .3s,left 0s 0s,-webkit-transform .3s;transition:transform .3s,opacity .3s,left 0s 0s;transition:transform .3s,opacity .3s,left 0s 0s,-webkit-transform .3s}
+div#searchcontainer.opensearch form{opacity:1;-webkit-transform:translate3d(0,0,0);transform:translate3d(0,0,0);-webkit-transition:all .3s .3s;transition:all .3s .3s;transition:all .3s .3s}
+}
+/* Kotak Pencarian Popular */
+.live-search{position:relative;display:block;margin:auto;width:calc(100% - 20px);height:35px;border:1px solid rgba(0,0,0,0);background:#ffffff;color:#999999;border-radius:5px;}
+.live-search .search:focus {outline:none;}
+.live-search svg{width:20px;height:25px}
+.live-search path{fill:#9e9e9e}
+.live-search a{color:#9e9e9e}
+#search{margin:0}
+.search{padding:0 8px 0 40px;height:35px;line-height:35px;color:#999;font-size:14px;width:100%;border:0;border-radius:5px;margin:0 auto;outline:none}
+.search input{background:transparent;width:90%;height:20px;outline:0;margin:6px 10px 6px 0;border:none!important;padding:0 10px}
+.submit{position:absolute;top:-3px;left:0;width:42px;height:42px;float:right;border:0;padding:4px;outline:none;cursor:pointer;background:transparent}
+.submit svg{width:20px;height:20px;vertical-align:middle;}
+.submit path{fill:#555555}
+.tutup{display:block;position:absolute;width:40px;height:40px;cursor:pointer;background-image:url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPjxkZWZzPjxwYXRoIGQ9Ik0xMiAyQzYuNSAyIDIgNi41IDIgMTJzNC41IDEwIDEwIDEwIDEwLTQuNSAxMC0xMFMxNy41IDIgMTIgMnptNC42IDE0LjZjLS4yLjItLjYuNC0uOS40LS4zIDAtLjYtLjEtLjktLjRMMTIgMTMuOGwtMi44IDIuOWMtLjIuMi0uNi4zLS45LjMtLjMgMC0uNi0uMS0uOS0uNC0uNS0uNS0uNS0xLjMgMC0xLjhsMi44LTIuOS0yLjgtMi43Yy0uNS0uNS0uNS0xLjMgMC0xLjhzMS4zLS41IDEuOCAwbDIuOSAyLjggMi44LTIuOWMuNS0uNSAxLjMtLjUgMS44IDBzLjUgMS4zIDAgMS44TDEzLjggMTJsMi45IDIuOGMuNC41LjQgMS4zLS4xIDEuOHoiIGlkPSJhIi8+PC9kZWZzPjxnIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCI+PG1hc2sgaWQ9ImIiIGZpbGw9IiNmZmYiPjx1c2UgeGxpbms6aHJlZj0iI2EiLz48L21hc2s+PGcgbWFzaz0idXJsKCNiKSIgZmlsbD0iIzg1ODU4NSI+PHBhdGggZD0iTTAgMGgyNHYyNEgweiIvPjwvZz48L2c+PC9zdmc+);background-size:16px;background-color:transparent;right:10px;transform:translateY(-50%) scale(1);background-repeat:no-repeat;background-position:center center;border-width:0;border-style:initial;border-color:initial;border-image:initial;outline:0;transition:transform .32s ease 0s}
+.search-content{display:none;width:calc(100% - 30px);position:absolute;z-index:5;top:calc(100% + 6px);padding-top:2px;background:#ffffff;border-radius:0 0 2px 2px;box-shadow:0 5px 5px rgba(0,0,0,.08);padding:15px;height:100vh;max-height:400px;overflow:hidden}
+.search-content:hover{overflow-y:auto;overflow-x:hidden}
+.search-result{padding:10px 0;width:100%;margin:0 auto}
+.search-result .search-item{overflow:auto;padding:15px 0;text-align:left;border-bottom:1px solid rgba(0,0,0,.07)}
+.search-item img{width:80px;height:80px;float:left;border-radius:4px}
+.search-item a{width:calc(100% - 90px);float:right;display:block;color:#444;text-decoration:none}
+.content-recent-post .deskripsi, .content-recent-post .separator, .content-recent-post .title-harga, .content-recent-post .blibli-discount, .content-recent-post .post-kanan, .content-recent-post .blibli-harga-sidebar,.content-recent-post p {display: none;}
+.content-recent-post .blibli-rating-produk{width:calc(100% - 90px);float:right;display:block!important;color:#444;text-decoration:none;}
+.content-recent-post .blibli-status-produk{position:relative;display:block;padding:2px 8px;margin-left:15px;float:left;text-decoration:none;background:#038ce3;color:#ffffff;font-size:12px}
+.content-recent-post .harga-produk{border-bottom:none;width:calc(100% - 90px);float:right;display:block;color:#444;text-decoration:none;margin:0;padding:2px 0}
+.content-recent-post .strike{position:relative;display:inline-block;float:left;margin-right:10px;color:#777777;font-size:14px;text-decoration:line-through}
+.content-recent-post .item_price{position:relative;display:inline-block;margin-top:-3px;float:left;color:#ff5822}
+.content-recent-post .harga-produk{border-bottom:none}
+.more-result{display:none;cursor:pointer;background:#ffffff;color:#178cc8;padding:8px;margin:20px auto 40px;max-width:100px;font-size:75%;text-align:center;text-transform:uppercase;border-radius:3px;line-height:normal;letter-spacing:1px;border:1px solid #178cc8;transition:all .3s ease-out}
+.more-result:hover{background:#178cc8;color:#ffffff;border-color:transparent}
+.more-result a{text-decoration:none;color:#178cc8;}
+.more-result:hover a,.more-result a:hover{color:#ffffff;}
+.queryword{font-weight:700}
+input[type="search"]::-webkit-search-decoration,input[type="search"]::-webkit-search-cancel-button,input[type="search"]::-webkit-search-results-button,input[type="search"]::-webkit-search-results-decoration{display:none}
+/*Menu Keranjang*/
+#belisekarang{display:none}
+.keranjang.dekstop{position:relative;width:60px;text-align:left;padding:5px 0;-webkit-box-ordinal-group:3;-ms-flex-order:3;order:3;-webkit-box-align:center;-ms-flex-align:center;align-items:center;}
+.notif-tambah-product{width:255px;position:absolute;z-index:99;font-size:14px;right:-10px;background:#00b35e;padding:10px 20px;opacity:1;display:none;color:#fff;top:65px;border-radius:15px;-webkit-box-shadow:0 2px 5px 0 rgba(56,56,56,.49);box-shadow:0 2px 5px 0 rgba(56,56,56,.49);}
+.keranjang .simpleCart_quantity{width:20px;height:20px;background:#ff0100;position:absolute;border-radius:100%;color:#ffffff;text-align:center;font-size:12px;line-height:20px;z-index:3}
+.keranjang.dekstop .simpleCart_quantity{top:3px;left:30px;}
+.keranjang-box{position:absolute;top:50%;left:50%;padding:10px;transform:translate(-50%,-45%);background-color:#fff;border-radius:.5rem;max-width:500px;width:90%;box-shadow:inset 0 2px 6px 0 rgba(49,53,59,.12);max-height:calc(100vh - 150px);overflow:hidden;margin:auto}
+.keranjang-box:hover{overflow-x:hidden;overflow-y:auto}
+.keranjang-box .close-keranjang{position:absolute;right:15px;padding:5px;border:1px solid #ddd;border-radius:15px;font-size:10px;font-weight:600}
+.keranjang-box .close-keranjang a.tombol-bukatutup{width:auto;background:transparent;color:#444444;padding:0 2px}
+.blibli-background-transparent-box{position:fixed;z-index:999;top:0;left:0;width:100%;height:100%;background:rgba(0, 0, 0, 0.5);display:none;}
+.keranjang.dekstop .keranjang-icon{display:inline-block;padding:7px;margin:3px 0 3px 5px;border-radius:20px;width:24px;height:24px;cursor:pointer;-webkit-transition:all .2s;transition:all .2s}
+.keranjang.dekstop .keranjang-icon svg{height:22px;width:22px;display:inline-block;}
+.keranjang.dekstop .keranjang-icon path{fill:#fff;}
+@media only screen and (max-width:900px){.is-post .keranjang.mobile,.keranjang.dekstop{display:none;}.is-post .keranjang.dekstop{display:block;}.keranjang.mobile{position:relative;display:block;width:100%;text-align:center;}.keranjang.mobile .keranjang-icon{display:block;width:100%;height:100%;text-align:center;margin:0 auto;margin-top:5px;}.keranjang.mobile .keranjang-icon svg{position:relative;display:block;margin:0 auto;width:36px;height:36px;}.keranjang.mobile .keranjang-icon path{fill:#444444;}.keranjang.mobile .simpleCart_quantity{top:-5px;left:50%;}}
+/*  Tabel Daftar Belanja*/
+.keranjang-box .simpleCart_items::-webkit-scrollbar{width:2px;background-color:transparent}
+.keranjang-box:hover .simpleCart_items::-webkit-scrollbar-thumb{background-color:#ddd;border-radius:5px}
+.keranjang-box .headerRow,.keranjang-box .item-price,.keranjang-box .item-berat,.keranjang-box .item-link{display:none}
+.keranjang-box .simpleCart_items{max-height:250px;overflow:hidden;overflow-y:auto;margin-bottom:20px;padding:2px 10px;margin-top:30px;font-size:12px}
+.keranjang-box .itemRow{overflow:hidden;line-height:1.5;width:calc(100% - 10px);font-weight:700;font-size:12px;display:inline-block;background:#f7f8f9;padding:5px;border-radius:10px}
+.keranjang-box .item-thumb{float:left}
+.keranjang-box .item-thumb img{width:80px;height:auto;border-radius:.3rem;float:left;margin:0 10px 0 0}
+.keranjang-box .item-decrement,.item-quantity,.keranjang-box .item-increment{font-size:12px;display:table-cell}
+.keranjang-box .item-name{float:right;width:calc(100% - 90px);font-size:14px;display:inline-block}
+.keranjang-box .item-name:before{counter-increment:my-sec-counter;content:counter(my-sec-counter) ". "}
+.keranjang-box .item-size{font-size:12px;font-weight:400;}
+.keranjang-box .item-pilihan1,.keranjang-box .item-pilihan2,.keranjang-box .item-varian1,.keranjang-box .item-varian2,.item-total{font-size:10px}
+.keranjang-box .item-pilihan1,.keranjang-box .item-pilihan2{float:left;margin-right:5px}
+.keranjang-box .item-quantity{padding:0 10px;font-size:14px;vertical-align:middle}
+.keranjang-box .item-total{color:#ff5822;font-weight:600;font-size:14px}
+.keranjang-box span.sub-total{display:inline-block;color:#333}
+.keranjang-box .item-remove,.simpleCart_items .item-remove{float:right;display:block;position:relative;margin-top:-35px}
+.keranjang-box .simpleCart_increment{background-image:url("data:image/svg+xml,<svg viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'><path d='M12,20C7.59,20 4,16.41 4,12C4,7.59 7.59,4 12,4C16.41,4 20,7.59 20,12C20,16.41 16.41,20 12,20M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2M13,7H11V11H7V13H11V17H13V13H17V11H13V7Z' fill='%23a6a6ad'/></svg>")!important}
+.keranjang-box .simpleCart_increment,.keranjang-box .simpleCart_decrement{width:20px;height:20px;cursor:pointer;display:inline-block;background-image:url("data:image/svg+xml,<svg viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'><path d='M12,20C7.59,20 4,16.41 4,12C4,7.59 7.59,4 12,4C16.41,4 20,7.59 20,12C20,16.41 16.41,20 12,20M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2M7,13H17V11H7' fill='%23a6a6ad'/></svg>");background-size:20px 20px;background-position:center center;background-repeat:no-repeat;vertical-align:middle;text-indent:-9999px}
+.keranjang-box .item-remove a.simpleCart_remove,.simpleCart_items .item-remove a.simpleCart_remove{display:block;width:20px;height:20px;background:url("data:image/svg+xml,<svg viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'><path d='M6,19A2,2 0 0,0 8,21H16A2,2 0 0,0 18,19V7H6V19M8.46,11.88L9.87,10.47L12,12.59L14.12,10.47L15.53,11.88L13.41,14L15.53,16.12L14.12,17.53L12,15.41L9.88,17.53L8.47,16.12L10.59,14L8.46,11.88M15.5,4L14.5,3H9.5L8.5,4H5V6H19V4H15.5Z' fill='%23a6a6ad'/></svg>") no-repeat;text-indent:-9999px;background-size:20px}
+.keranjang-box a.view-cart,.keranjang-box a.tombol-bukatutup{position:relative;display:inline-block;color:#ffffff;padding:5px 10px;border-radius:0;text-align:center;width:40%}
+.keranjang-box a.view-cart{background:linear-gradient(to top, #2625bd, #2625bd)}
+.keranjang-box a.tombol-bukatutup{background:#1e61f3}
+.keranjang-box a.view-cart:after{content: "Bayar Sekarang";}
+.keranjang-box a.view-cart.active:after{content: "Tutup";}
+.keranjang-box .ck-btn{margin-bottom:10px;text-align:center}
+.keranjang-box .harga-total{text-align:center;margin:10px 0;padding:0 5px;font-size:14px;font-weight:500;display:none}
+.keranjang-box span.simpleCart_total{font-size:16px;font-weight:600;color:#ff5822}
+#jam, #menit, #detik{display:inline-block;}
+#jam-digital,#hasil{display:none;}
+span.simpleCart_shipping, span.simpleCart_grandTotal {font-weight: 600;color:#ff5822;}
+.empty-cart{position:relative;display:block;margin:auto;text-align:center}
+.empty-cart svg{width:100px;height:100px;display:block;text-align:center;margin:auto}
+.empty-cart svg path{fill:#0094da}
+.empty-cart .center{position:relative;display:block;margin:10px 0;font-size:14px;font-weight:600}
+.empty-cart .center:after {content: "Upss!, Keranjang Anda masih kosong";}
+.ck-btn,.empty-cart.active{display:none;}
+.ck-btn.active{display:block;}
+/*  Form Belanja Checkout*/
+#belanja{padding:5px;display:none}
+.datainput select{padding:12px 0;color:#555;font-size:14px;width:100%;border:0;border-bottom:1px solid #ddd;outline:none;background:#fff}
+#payment_confirm,#form-reseller{display:grid;grid-template-columns:1fr 1fr;grid-gap:0 15px}
+.datainput p{font-size:12px;font-weight:500;color:#555;background:#f1f7ff;display:inline-block;padding:5px 10px;border-radius:10px;line-height:1.6}
+.datainput{position:relative;margin-bottom:5px;margin-right:5px}
+.datainput input,.datainput textarea{font-size:14px;padding:12px 0;display:block;width:100%;border:none;border-bottom:1px solid #ddd}
+.datainput button.hasilkupon{background:#0094da;color:#fff;margin:5px 0;padding:5px 10px;text-align:center;cursor:pointer;font-size:14px;outline:0;border:0}
+.datainput input:focus,.datainput textarea:focus{outline:none}
+.datainput label{color:#999;font-size:14px;font-weight:400;position:absolute;pointer-events:none;left:0;top:10px;transition:.2s ease all}
+.datainput input:focus ~ label,.datainput input:valid ~ label,.datainput textarea:focus ~ label,.datainput textarea:valid ~ label {top: -10px!important;font-size: 14px;color: #5264AE;font-weight: 700}
+.bar{position:relative;display:block;width:100%}
+.bar:before,.bar:after{content:'';height:2px;width:0;bottom:1px;position:absolute;background:#4090f1;transition:.2s ease all}
+.bar:before{left:50%}
+.bar:after{right:50%}
+.datainput input:focus ~ .bar:before,.datainput input:focus ~ .bar:after,.datainput textarea:focus ~ .bar:before,.datainput textarea:focus ~ .bar:after {width: 50%}
+.highlight{position:absolute;height:50%;width:100px;top:25%;left:0;pointer-events:none;opacity:.5}
+.datainput input:focus ~ .highlight,.datainput textarea:focus ~ .highlight {animation: inputHighlighter .3s ease}
+.datainput input:focus ~ label,.datainput input:valid ~ label,.datainput textarea:focus ~ label,.datainput textarea:valid ~ label {top: -20px;font-size: 13px;color: #4090f1}
+.datainput .focus{box-shadow:inset 0 -1px 0 0 #1a73e8!important}
+.datainput .validasi{position:absolute;z-index:2;top:calc(100% + 20px);left:0;background:#7ed6ff;color:rgba(0,0,0,.6);padding:5px 10px;border-radius:3px;font-size:80%;box-shadow:0 5px 10px rgba(0,0,0,.08);transition:.4s;visibility:hidden;opacity:0;display:inline-block!important}
+.datainput .validasi.show{visibility:visible;opacity:1;top:calc(100% + 10px)}
+.datainput .validasi:after{position:absolute;bottom:100%;left:12px;content:'';border:8px solid;border-color:transparent transparent #7ed6ff transparent}
+.datakupon,.datacod{display:none;}
+a.send_form,a.send-reseller{position:relative;display:block;background:#0094da;color:#ffffff;padding:5px;border-radius:15px;text-align:center}
+#text-info span{display:block;padding:10px 15px;text-align:center;font-weight:700;margin:15px 0;border-radius:.5rem}
+#text-info span.yes{background:#c6ffc5;color:#0ea904}
+#text-info span.no{background:#ffc5c5;color:#ce0404}
+/*Content Wrapper*/
+#wrapper{margin:0 auto;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:horizontal;-webkit-box-direction:normal;-ms-flex-flow:row wrap;flex-flow:row wrap;position:relative;padding:10px}
+#content-wrap{-webkit-box-flex:1;-ms-flex:1 1 80%;flex:1 1 80%;max-width:80%;-webkit-box-sizing:border-box;box-sizing:border-box;padding:36px}
+#content-wrap-page h1{text-align:center;margin:0 0 1.6rem}
+.is-post #content-wrap{padding:15px;border:1px solid #ddd;border-radius:0;box-shadow:0 1px 4px 0 rgba(0,0,0,.14)}
+#content-wrap .content{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:horizontal;-webkit-box-direction:normal;-ms-flex-flow:row wrap;flex-flow:row wrap}
+#content-wrap .content .post-outer{-webkit-box-flex:1;-ms-flex:1 1 50%;flex:1 1 50%;max-width:50%;-webkit-box-sizing:border-box;box-sizing:border-box;margin-bottom:45px;padding-right:15px}
+#content-wrap .content .post-outer:nth-of-type(2n+0){padding-left:15px;padding-right:0}
+#content-wrap .content .post-outer .post-content{height:100%}
+#content-wrap .content .post-outer .img-thumbnail{width:100%;position:relative}
+#content-wrap .content .post-outer .img-thumbnail>a{display:block}
+#content-wrap .content .post-outer .img-thumbnail img{width:100%;display:block}
+#content-wrap .content .post-outer .post-title{font-size:20px;font-size:1.25rem;margin:13px 0 8px}
+#content-wrap .content .post-outer .post-info{margin:0 0 8px;font-size:14px;font-size:.875rem}
+#content-wrap .content .post-outer .post-info span,#content-wrap .content .post-outer .post-info time{display:inline-block;margin:0}
+#content-wrap .content .post-outer .post-info span:not(:last-child):after,#content-wrap .content .post-outer .post-info time:not(:last-child):after{content:"\b7";margin:0 .2rem}
+#content-wrap .content .post-outer .post-snippet b.harga-produk,#content-wrap .content .post-outer .post-snippet b.harga-produk-coret,#content-wrap .content .post-outer .post-snippet b.info-produk,#content-wrap .content .post-outer .post-snippet b.toc{display:none}
+#content-wrap .content .post-outer .post-snippet b,#content-wrap .content .post-outer .post-snippet del,#content-wrap .content .post-outer .post-snippet em,#content-wrap .content .post-outer .post-snippet i,#content-wrap .content .post-outer .post-snippet s,#content-wrap .content .post-outer .post-snippet strike,#content-wrap .content .post-outer .post-snippet strong,#content-wrap .content .post-outer .post-snippet u{font-weight:400;font-style:normal;text-decoration:none}
+#content-wrap .content-single .post-outer-single{-webkit-box-flex:1;-ms-flex:1 1 100%;flex:1 1 100%;max-width:100%}
+#content-wrap .content-single .post-outer-single .post-title{display: block;margin: 0px 0px 10px;font-size: 24px;font-weight: normal;line-height: normal;}
+#content-wrap .content-single .post-outer-single .post-info{margin:0 0 15px;padding-bottom:5px;font-size:12px;border-bottom:1px solid #ddd}
+#content-wrap .content-single .post-outer-single .post-info span,#content-wrap .content-single .post-outer-single .post-info time{display:inline-block;margin:0}
+#content-wrap .content-single .post-outer-single .post-info span:not(:last-child):after,#content-wrap .content-single .post-outer-single .post-info time:not(:last-child):after{content:"\b7";margin:0 .2rem}
+#content-wrap-page{-webkit-box-flex:1;-ms-flex:1 1 100%;flex:1 1 100%;max-width:100%;margin:0 auto;padding:36px}
+span.label-info.post a:not(:first-of-type){display:none}
+@media only screen and (max-width:900px){#content-wrap{-webkit-box-flex:1;-ms-flex:1 1 100%;flex:1 1 100%;max-width:100%;padding:30px}}
+@media only screen and (max-width:480px){#content-wrap{padding:22px}}
+@media only screen and (max-width:480px){#content-wrap .content .post-outer{-ms-flex-preferred-size:100%;flex-basis:100%;max-width:100%;padding-right:0}}
+@media only screen and (max-width:480px){#content-wrap .content .post-outer:nth-of-type(2n+0){padding-left:0}}
+@media only screen and (max-width:900px){#content-wrap .content .post-outer .post-title{font-size:1.2rem}}
+@media only screen and (max-width:480px){#content-wrap .content .post-outer .post-title{font-size:1.1rem}}
+@media only screen and (max-width:900px){#content-wrap .content-single .post-outer-single .post-title{font-size:1.5rem}}
+@media only screen and (max-width:480px){#content-wrap .content-single .post-outer-single .post-title{font-size:1.25rem}}
+@media only screen and (max-width:900px){#content-wrap-page{padding:20px}}@media only screen and (max-width:480px){#content-wrap-page{padding:10px}}
+/* Blibli Whatsapp Chat */
+#bliblikirimwhatsapp{height:0;}
+#blibli-whatsapp-chat{position:fixed;background:#f5f5f5;width:350px;border-radius:10px;box-shadow:0 1px 15px rgba(32,33,36,.28);bottom:90px;right:30px;overflow:hidden;z-index:99;animation-name:showchat;animation-duration:1s;transform:scale(1)}
+a.blibli-whatsapp-show-chat{background:linear-gradient(to right top,#6f95f3,#0094da);color:#ffffff;position:fixed;z-index:98;bottom:25px;right:30px;font-size:15px;padding:10px 20px;border-radius:30px;box-shadow:0 1px 15px rgba(32,33,36,.28)}
+a.blibli-whatsapp-show-chat i{transform:scale(1.2);margin:0 10px 0 0;vertical-align:middle}.blibli-whatsapp-header-chat{background:linear-gradient(to right top,#6f95f3,#0094da);color:#ffffff;padding:20px}
+.blibli-whatsapp-header-chat h3{margin:0 0 10px}.blibli-whatsapp-header-chat p{font-size:14px;line-height:1.7;margin:0}
+.blibli-whatsapp-icon-avatar{position:relative}.blibli-whatsapp-icon-avatar img{border-radius:100%;width:50px;float:left;margin:0 10px 0 0}
+.blibli-whatsapp-icon-avatar:before,.blibli-whatsapp-icon-avatar:after{content:'';z-index:1;background:#23ab23;color:#ffffff;padding:4px 5px;border-radius:100%;position:absolute;top:30px;left:30px;height:20px;width:20px}
+a.informasi{padding:20px;display:block;overflow:hidden;animation-name:showhide;animation-duration:2.5s}
+a.informasi:hover{background:#e2e2e2}.info-chat span{display:block}
+#get-label,span.chat-label{font-size:12px;color:#333333}
+#blibli-whatsapp-nama,span.chat-nama{margin:5px 0 0;font-size:15px;font-weight:700;color:#222}#get-label,#blibli-whatsapp-nama{color:#ffffff}span.noAdmin{display:none}
+.blibli-whatsapp-background-color{background:#ffffff;color:#333333;padding:20px;font-size:12.5px;text-align:center;border-top:1px solid #ddd}
+textarea#chat-input{border:none;width:100%;height:25px;border-radius:25px;line-height:25px;outline:none;resize:none}
+a#send-it{color:#333333;width:40px;margin:-5px 0 0 5px;font-weight:700;padding:8px;background:#e2e2e2;border-radius:10px}
+.first-msg{background:#f5f5f5;padding:30px;text-align:center}
+.first-msg span{background:#e2e2e2;color:#333333;font-size:14.2px;line-height:1.7;border-radius:10px;padding:15px 20px;display:inline-block}
+.start-chat .blibli-whatsapp-background-color{display:flex}
+#get-number{display:none}a.close-chat{position:absolute;top:5px;right:15px;color:#ffffff;font-size:30px}
+@keyframes showhide{from{transform:scale(.5);opacity:0}}
+@keyframes showchat{from{transform:scale(0);opacity:0}}
+@media screen and (max-width:480px){#blibli-whatsapp-chat{width:auto;left:5%;right:5%;font-size:80%}}
+.hide{display:none;animation-name:showhide;animation-duration:1.5s;transform:scale(1);opacity:1}
+.show{display:block;animation-name:showhide;animation-duration:1.5s;transform:scale(1);opacity:1}
+/*Blibli Slider Carousel Banner*/
+.owl-carousel,.owl-carousel .owl-item{-webkit-tap-highlight-color:transparent;position:relative}.owl-carousel{display:none;width:100%;z-index:1}.owl-carousel .owl-stage{position:relative;-ms-touch-action:pan-Y;touch-action:manipulation;-moz-backface-visibility:hidden}.owl-carousel .owl-stage:after{content:".";display:block;clear:both;visibility:hidden;line-height:0;height:0}.owl-carousel .owl-stage-outer{position:relative;overflow:hidden;-webkit-transform:translate3d(0,0,0)}.owl-carousel .owl-item,.owl-carousel .owl-wrapper{-webkit-backface-visibility:hidden;-moz-backface-visibility:hidden;-ms-backface-visibility:hidden;-webkit-transform:translate3d(0,0,0);-moz-transform:translate3d(0,0,0);-ms-transform:translate3d(0,0,0)}.owl-carousel .owl-item{min-height:1px;float:left;-webkit-backface-visibility:hidden;-webkit-touch-callout:none}.owl-carousel .owl-item img{display:block;width:100%}.owl-carousel .owl-dots.disabled,.owl-carousel .owl-nav.disabled{display:none}.no-js .owl-carousel,.owl-carousel.owl-loaded{display:block}.owl-carousel .owl-dot,.owl-carousel .owl-nav .owl-next,.owl-carousel .owl-nav .owl-prev{cursor:pointer;-webkit-user-select:none;-khtml-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}.owl-carousel .owl-nav button.owl-next,.owl-carousel .owl-nav button.owl-prev,.owl-carousel button.owl-dot{background:0 0;color:inherit;border:none;padding:0!important;font:inherit;outline:none}.owl-carousel.owl-loading{opacity:0;display:block}.owl-carousel.owl-hidden{opacity:0}.owl-carousel.owl-refresh .owl-item{visibility:hidden}.owl-carousel.owl-drag .owl-item{-ms-touch-action:pan-y;touch-action:pan-y;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}.owl-carousel.owl-grab{cursor:move;cursor:grab}.owl-carousel.owl-rtl{direction:rtl}.owl-carousel.owl-rtl .owl-item{float:right}.owl-carousel .animated{animation-duration:1s;animation-fill-mode:both}.owl-carousel .owl-animated-in{z-index:0}.owl-carousel .owl-animated-out{z-index:1}.owl-carousel .fadeOut{animation-name:fadeOut}@keyframes fadeOut{0%{opacity:1}100%{opacity:0}}.owl-height{transition:height .5s ease-in-out}.owl-carousel .owl-item .owl-lazy{opacity:0;transition:opacity .4s ease}.owl-carousel .owl-item .owl-lazy:not([src]),.owl-carousel .owl-item .owl-lazy[src^=""]{max-height:0}.owl-carousel .owl-item img.owl-lazy{transform-style:preserve-3d}.owl-carousel .owl-video-wrapper{position:relative;height:100%;background:#000}.owl-carousel .owl-video-play-icon{position:absolute;height:80px;width:80px;left:50%;top:50%;margin-left:-40px;margin-top:-40px;background:url(owl.video.play.png) no-repeat;cursor:pointer;z-index:1;-webkit-backface-visibility:hidden;transition:transform .1s ease}.owl-carousel .owl-video-play-icon:hover{-ms-transform:scale(1.3,1.3);transform:scale(1.3,1.3)}.owl-carousel .owl-video-playing .owl-video-play-icon,.owl-carousel .owl-video-playing .owl-video-tn{display:none}.owl-carousel .owl-video-tn{opacity:0;height:100%;background-position:center center;background-repeat:no-repeat;background-size:contain;transition:opacity .4s ease}.owl-carousel .owl-video-frame{position:relative;z-index:1;height:100%;width:100%}
+.owl-carousel{position:relative!important}.owl-nav{display:block!important}.owl-dots{display:none!important}.owl-prev,.owl-next{position:absolute;background-color:#ddd!important;width:48px!important;height:48px!important;top:45%;border-radius:100%;-webkit-transform:translateY(-45%);-ms-transform:translateY(-45%);-o-transform:translateY(-45%);transform:translateY(-45%);opacity:.2;-webkit-transition:opacity .2s ease-out;-o-transition:opacity .2s ease-out;transition:opacity .2s ease-out}.owl-prev:hover,.owl-next:hover{opacity:.8}.owl-prev{left:0}.owl-next{right:0}.owl-prev span,.owl-next span{background-repeat:no-repeat!important;height:50px;width:50px;display:inline-block;margin:1px;padding:0}.owl-prev span{background:url("data:image/svg+xml;charset=utf8,<svg xmlns='http://www.w3.org/2000/svg' width='50' height='50' viewBox='0 0 24 24'><path fill='%230095da' d='M15.41,16.58L10.83,12L15.41,7.41L14,6L8,12L14,18L15.41,16.58Z'/></svg>")}.owl-next span{background:url("data:image/svg+xml;charset=utf8,<svg xmlns='http://www.w3.org/2000/svg' width='50' height='50' viewBox='0 0 24 24'><path fill='%230095da' d='M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z'/></svg>")}
+.blibli-whatsapp-icon-avatar:before,i.whatsapp{background:url("data:image/svg+xml;charset=utf8,<svg xmlns='http://www.w3.org/2000/svg' width='22' height='22' viewBox='0 0 24 24'><path fill='white' d='M12.04 2C6.58 2 2.13 6.45 2.13 11.91C2.13 13.66 2.59 15.36 3.45 16.86L2.05 22L7.3 20.62C8.75 21.41 10.38 21.83 12.04 21.83C17.5 21.83 21.95 17.38 21.95 11.92C21.95 9.27 20.92 6.78 19.05 4.91C17.18 3.03 14.69 2 12.04 2M12.05 3.67C14.25 3.67 16.31 4.53 17.87 6.09C19.42 7.65 20.28 9.72 20.28 11.92C20.28 16.46 16.58 20.15 12.04 20.15C10.56 20.15 9.11 19.76 7.85 19L7.55 18.83L4.43 19.65L5.26 16.61L5.06 16.29C4.24 15 3.8 13.47 3.8 11.91C3.81 7.37 7.5 3.67 12.05 3.67M8.53 7.33C8.37 7.33 8.1 7.39 7.87 7.64C7.65 7.89 7 8.5 7 9.71C7 10.93 7.89 12.1 8 12.27C8.14 12.44 9.76 14.94 12.25 16C12.84 16.27 13.3 16.42 13.66 16.53C14.25 16.72 14.79 16.69 15.22 16.63C15.7 16.56 16.68 16.03 16.89 15.45C17.1 14.87 17.1 14.38 17.04 14.27C16.97 14.17 16.81 14.11 16.56 14C16.blibli-popular-product-in-home .owl-dots31 13.86 15.09 13.26 14.87 13.18C14.64 13.1 14.5 13.06 14.31 13.3C14.15 13.55 13.67 14.11 13.53 14.27C13.38 14.44 13.24 14.46 13 14.34C12.74 14.21 11.94 13.95 11 13.11C10.26 12.45 9.77 11.64 9.62 11.39C9.5 11.15 9.61 11 9.73 10.89C9.84 10.78 10 10.6 10.1 10.45C10.23 10.31 10.27 10.2 10.35 10.04C10.43 9.87 10.39 9.73 10.33 9.61C10.27 9.5 9.77 8.26 9.56 7.77C9.36 7.29 9.16 7.35 9 7.34C8.86 7.34 8.7 7.33 8.53 7.33Z'/></svg>");z-index:4;left:33px;top:31px}
+#blibli-sliderbanner{padding:10px 0;position:relative;z-index:2;line-height:5px}
+#blibli-sliderbanner img{border-radius:10px}
+#blibli-sliderbanner .blibliwidget-title,#blibli-sliderbanner span.caption{display:none}
+.blibli-widget-gambar-produk .owl-carousel .owl-dot{float:left;width:55px;height:55px!important;margin:0 2px 4px;cursor:pointer;background-size:cover;background-position:center;background-repeat:no-repeat}
+.blibli-widget-gambar-produk .owl-carousel .owl-dot.active{width:55px;height:57px!important;}
+.blibli-widget-gambar-produk .owl-carousel .owl-dots{position:relative;bottom:0;margin-top:5px;display:block!important}
+.blibli-widget-gambar-produk .owl-carousel .owl-dots .owl-dot span,.blibli-widget-gambar-produk .owl-carousel .owl-nav{display:none!important;}
+@media only screen and (max-width:800px){
+#blibli-popular-product-in-home .owl-prev,#blibli-popular-product-in-home .owl-next{background:transparent!important;opacity:.8}
+.owl-nav,#blibli-popular-product-in-home .owl-dots,#blibli-icon-carousel .owl-dots{display:none!important;}
+.owl-dots,#blibli-popular-product-in-home .owl-nav,#blibli-icon-carousel .owl-nav{display:block!important}
+.is-post .owl-dots{text-align:center!important}
+.owl-dots .owl-dot span{width: 8px;height: 8px;margin: 3px;background-color: #b7b4b4;display: block;-webkit-backface-visibility: visible;transition: all.2s ease;border-radius: 30px;}
+.owl-dots .owl-dot.active span{background-color:#0094da;width:22px;height:8px;}
+}
+@media only screen and (max-width:480px){.blibli-widget-gambar-produk .owl-carousel .owl-dot{float:none;width:auto;height:auto!important;background-image: url()!important;margin:0;}.blibli-widget-gambar-produk .owl-carousel .owl-dot.active{width:auto;height:auto!important;}.blibli-widget-gambar-produk .owl-carousel .owl-dots .owl-dot span{display:block!important}}
+/*Blibli Kategori Favorite*/
+.blibli-kategori-favorite{width:100%}
+.blibli-daftar-kategori h2{float:left;position:relative;display:block;margin:0;text-transform:none;font-size:17px;color:#333333;z-index:1;padding:10px}
+.blibli-daftar-kategori a{float:right;padding:5px 10px;margin-top:10px;font-size:14px}
+#blibli-icon-kategori{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:horizontal;-webkit-box-direction:normal;-ms-flex-flow:row wrap;flex-flow:row wrap;margin:-70 auto;width:100%;font-size:13px;margin-bottom:25px;overflow-x:auto;overflow-y:hidden;white-space:nowrap;transition:all 0.5s;background:#ffffff;border-radius:8px;box-shadow:0 0 24px -4px rgba(0,0,0,.12)}
+#blibli-icon-kategori .Image{-webkit-box-flex:1;-ms-flex:1 1 50%;flex:1 1 auto;width:10%;-webkit-box-sizing:border-box;box-sizing:border-box;margin:0 auto}
+#blibli-icon-kategori .Image img{width:48px;margin:0 auto;}
+#blibli-icon-kategori .blibliwidget-title{display:none}
+#blibli-icon-kategori .widget-content{text-align:center;padding:12px 12px;color:rgba(0,0,0,.87)!important}
+#blibli-icon-kategori span.caption{font-size:12px;text-align:center;bottom:0;width:100%;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;white-space:initial;position:relative;margin:0;overflow:hidden}
+@media only screen and (max-width:640px){#blibli-icon-kategori .Image{width:25%;}}
+/*Blibli Banner Besar*/
+.blibli-banner-tengah{padding:0px 0}
+#blibli-widget-banner-tengah .blibliwidget-title,#blibli-widget-banner-tengah span.caption{display:none;height:0}
+/* Blibli Batas Waktu (blibli countdown) */
+#blibli-promo-label .blibliwidget-title{float:left;padding:5px;font-weight:700;margin-top:10;text-align:left;width:auto;margin:0 0 10px}
+#blibli-promo-label .blibliwidget-title h3.title{color:#ffffff;text-align:left;font-size:18px;padding:0;line-height:1;margin-right:10px}
+.blibli-clock-container{position:relative;padding:10px;margin-bottom:10px;border-radius:15px;width:100%;}
+#bliblicountdown{margin:0 auto;display:block;position:relative;height:40px}
+#bliblicountdown p{color:#555;text-align:center;font-size:30px;padding:20px;line-height:1}
+#clock span{float:left;text-align:center;font-size:16px;margin:0 5px;padding:5px;width:40px;border-radius:5px;box-sizing:border-box}
+#clock span{background:#ffffff}
+#clock:after{content:"";display:block;clear:both}
+#units span{float:none;width:40px;text-align:center;margin:0;padding:5px;box-sizing:border-box;letter-spacing:1px}
+.blibli-text-kanan{position:absolute;right:15px;top:18px;font-size:14px}
+.blibli-text-kanan a{color:#ffffff}
+.days,.hours,.minutes,.seconds{display:inline-block;padding:5px 10px;background:#fff;border-radius: 8px;}
+@media only screen and (max-width:640px){#bliblicountdown{width:100%;margin:0 auto;text-align:center}#blibli-promo-label .blibliwidget-title{float:none}}
+/*Related Product*/
+.relatedPostProduct {padding: 0 10px;}
+.is-multipleitem #blibli-relatedpost-product{display:none}
+.blibli-garis-bawah{position:relative;width:100%;margin:20px 0 10px 0;background-color:#0094da;display:block;padding:2px 0}
+.is-post #blibli-relatedpost-product{position:relative;margin:0 auto;padding:15px 0;background-color:#ffffff;box-shadow:0 1px 13px 4px rgba(0,0,0,.14);margin-top:20px}
+.blibli-related-kategori{position:relative;width:100%;overflow:hidden;margin:5px 0;}
+.blibli-related-kategori .title-wrap{position:relative;float:left;width:100%;display:block;margin:0}
+.blibli-related-kategori .title-wrap h3{font-size:18px;font-weight:700;line-height:1.2}
+.blibli-related-kategori .related-tag{display:none}
+.blibli-related-ready{position:relative;display:block;float:left;width:100%}
+.blibli-related-product{position:relative;overflow:hidden;margin:0;padding:0}
+.blibli-related-product .shadow{box-shadow:0px 0px 2px 0px rgba(64,64,64,0.28);border-radius:9px}
+.blibli-related-product .related-item{width:100%;position:relative;overflow:hidden;float:left;display:block;box-sizing:border-box;padding:0 5px;margin:0;}
+.post-image-wrap{position: relative;height: 0;padding-bottom: 95%;width: 100%;overflow: hidden;transition:box-shadow .25s;background-color:#ffffff;border-radius:9px 9px 0 0}
+.blibli-related-product .post-image-link{width:100%;position:relative;overflow:hidden;display:block;transition:box-shadow .25s;border-radius:9px 9px 0 0}
+.blibli-related-product .post-title{display:block;padding:10px 5px;font-size:14px!important;font-weight:700;text-transform:none;margin:0!important;text-align:center;transition:box-shadow .25s;background:#ffffff;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
+.blibli-related-product .post-title a{color:#333;transition:color .17s}
+.blibli-related-product .post-title a:hover{color:#0094da}
+.blibli-related-product .widget-harga-wrap{position:relative;display:block;background:#ffffff;width:calc(100% - 20px);height:100px;padding:0 10px;text-align:left;font-weight:700;font-stretch: normal;white-space: nowrap;overflow:hidden;text-overflow:ellipsis;line-height:20px;transition:box-shadow .25s;border-radius:0 0 9px 9px;}
+.blibli-related-kategori .blibli-harga-produk{display:block;color:#ff5822;font-size:14px;font-weight:700;font-stretch:normal;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.blibli-related-kategori .blibli-harga-diskon{display:inline-block;height:15px;text-decoration:line-through;color:#777777;font-weight:700;font-size:12px}
+.blibli-related-kategori .blibli-persentase-harga{position:relative;display:inline-block;color:#777777;font-size:12px;font-weight:700;text-transform:uppercase;vertical-align:middle;margin-left:5px}
+.blibli-related-kategori .blibli-status-produk{position:absolute;padding:3px 7px;display:block;background:#038ce3;color:#ffffff;font-size:14px;border-radius:6px 0;z-index:3}
+.blibli-related-kategori .blibli-status-produk.habis{background:#373737}
+.blibli-related-kategori b.bliblil-widget-rating{display:block;}
+.blibli-related-kategori i.blibli-star-angka{font-size:12px;font-weight:400;vertical-align:top;margin-left:5px}
+/*Kategori Product In Home*/
+#blibli-kategori-in-home {position: relative;padding: 10px;margin-bottom: 10px;border-radius: 15px;width: calc(100% - 20px);}
+#blibli-kategori-in-home .blibli-produk-kategori-title{margin-top: 20px;padding: 15px 0;height: 40px;position: relative;width: 100%;margin: 0 auto;}
+#blibli-kategori-in-home .blibli-produk-kategori-title .blibli-kategori-garis{height: 17px;border-bottom: 1px solid #efefef;text-align: left;}
+#blibli-kategori-in-home .blibli-produk-kategori-title h3.title{background:#ffffff;color:#444444;padding: 8px 10px 6px 10px;font-size: 16px;line-height: 20px;border-radius: 0;margin: 0;display: inline-block;border: 1px solid #efefef;text-transform: uppercase;}
+#blibli-kategori-in-home .blibli-kategori-text-kanan{position:absolute;background:#ffffff;padding:5px;margin-top:-60px;right:0;font-size:14px;}
+#blibli-kategori-in-home .blibli-kategori-text-kanan a{color:#444444;}
+.blibli-kategori-ready{float:left;width:100%}
+.blibli-kategori-ready .loader{height:178px}
+.blibli-kategori-product{position:relative;overflow:hidden;margin:0 -5px;padding:0}
+.blibli-kategori-product .shadow{box-shadow:0px 0px 2px 0px rgba(64,64,64,0.28);border-radius:9px}
+.blibli-kategori-product .related-item{width:calc(100% / 5);position:relative;overflow:hidden;float:left;display:block;box-sizing:border-box;padding:5px 10px;margin:0;}
+.blibli-kategori-product .post-image-link{width:100%;max-height:200px;position:relative;overflow:hidden;display:block;transition:box-shadow .25s;border-radius:9px 9px 0 0}
+.blibli-kategori-product .post-title{display:block;padding:10px 5px;font-size:14px!important;font-weight:700;text-transform:none;margin:0!important;text-align:left;transition:box-shadow .25s;background:#ffffff;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
+.blibli-kategori-product .post-title a{color:#333;transition:color .17s}
+.blibli-kategori-product .post-title a:hover{color:#0094da}
+.blibli-kategori-product .widget-harga-wrap{position:relative;display:block;background:#ffffff;width:100%);height:100px;padding:0 10px;text-align:left;font-weight:700;font-stretch: normal;white-space: nowrap;overflow:hidden;text-overflow:ellipsis;line-height:20px;transition:box-shadow .25s;border-radius:0 0 9px 9px;}
+.blibli-kategori-product .harga{display:block;font-size:14px;color:#ff5822;}
+.blibli-kategori-product .produk_diskon.show{display: block;height:15px;text-decoration:line-through;color:#777777;font-size:12px}
+.blibli-kategori-product .status_produk.show{position:absolute;top:0;left:0;background:#038ce3;color:#ffffff;padding:4px 8px;font-size:12px;text-transform:uppercase;font-weight:400;border-radius:8px 0;display:block}
+.blibli-kategori-product .status_produk.show:nth-child(3),.blibli-kategori-product .status_produk.show:nth-child(4),.blibli-kategori-product .status_produk.show:nth-child(5){display:none;}
+@media only screen and (max-width:1000px){.blibli-kategori-product .post-image-link{max-height:140px}}
+@media only screen and (max-width:800px){#blibli-kategori-in-home .blibli-kategori-text-kanan{margin-top:-55px;}.blibli-related-kategori{width:100%;max-width:100%;margin:0;padding:0;border:0;box-shadow:none}.blibli-kategori-product{display:grid;overflow-x:auto!important;grid-template-columns:repeat(5,21%) 1px!important;margin:0 -10px}.blibli-kategori-product .related-item{width:100%;padding:10px}.blibli-kategori-product .post-image-link{max-height:145px}}
+@media only screen and (max-width:640px){.blibli-kategori-product{grid-template-columns:repeat(5,30%) 1px!important}.blibli-kategori-product .post-image-link{max-height:160px}}
+@media only screen and (max-width:480px){.blibli-kategori-product{grid-template-columns:repeat(5,50%) 1px!important}.blibli-kategori-product .post-image-link{max-height:175px}}
+@media only screen and (max-width:360px){.blibli-kategori-product .post-image-link{max-height:145px}}
+/*Blbli Label Melayang*/
+#blibli-label-melayang .widget-content.cloud-label-widget-content::-webkit-scrollbar{height:2px;background-color:transparent}
+#blibli-label-melayang .widget-content.cloud-label-widget-content::-webkit-scrollbar-thumb{background-color:#ddd;border-radius:5px}
+#blibli-label-melayang{background:#ffffff;position:-webkit-sticky;position:sticky;width:100%;top:67px;z-index:9;border-radius:8px;-webkit-box-shadow:0 0 24px -4px rgba(0,0,0,.12);box-shadow:0 0 24px -4px rgba(0,0,0,.12);}
+#blibli-label-melayang .blibliwidget-title{display:none}
+#blibli-label-melayang .widget-content.cloud-label-widget-content{padding:5px 10px;display:-webkit-box;display:-ms-flexbox;display:flex;overflow-x:auto;cursor:pointer;scrollbar-color:#7f7f7f;scrollbar-width: thin;}
+#blibli-label-melayang .cloud-label-widget-content .label-size{margin:1px;display:inline-block;white-space:nowrap;white-space:nowrap;background:#f1f1f1;margin-right:10px;color:rgba(0,0,0,.38);cursor:pointer;border-radius:16px;padding:4px 8px;-webkit-transition:all .3s ease-in-out;transition:all .3s ease-in-out}
+#blibli-label-melayang .cloud-label-widget-content .label-size:nth-child(1){color:#ffffff;background-image:linear-gradient(106deg,#f8a43f,#f37121)}
+#blibli-label-melayang .cloud-label-widget-content .label-size a.label-name{border:none;color:rgba(0,0,0,.38);padding:1px 5px}
+#blibli-label-melayang .cloud-label-widget-content .label-size:nth-child(1) a.label-name{border:none;color:#ffffff}
+.label-size a.label-name{border:1px solid #383f4a}
+.label-size a.label-name:hover{border:1px solid #2674a6}
+.cloud-label-widget-content .label-size{margin:3px 1px;display:inline-block}
+.cloud-label-widget-content .label-size a.label-name{display:inline-block;padding:4px 8px;font-size:14px;font-size:.875rem;border-radius:3px;-webkit-transition:all .2s;transition:all .2s}
+.cloud-label-widget-content .label-size a.label-name span.label-count{color:inherit;margin-left:3px}
+/*Tampilan Home*/
+.is-multipleitem #sidebar-wrap{display:none}
+.is-multipleitem #content-wrap{position:relative;display:block;width:100%;max-width:100%;flex:none;padding:10px 0;margin:auto}
+.is-multipleitem #main-content{margin:0 auto;position:relative;display:block;padding:0}
+.is-multipleitem #content-wrap .content{display:block;position:relative;margin:auto;flex:none}
+#content-wrap .content .post-outer .post-content:hover{transition:box-shadow .25s;box-shadow:0 0 12px 0 rgba(0,0,0,.24)}
+.is-multipleitem #content-wrap .content .post-outer{width:17.9%;margin-bottom:2%;margin-right:1%;margin-left:1%;float:left;flex:none;padding-right:0;padding-left:0}
+.is-multipleitem .post-content{position:relative;box-shadow:0px 0px 2px 0px rgba(64,64,64,0.28);border-radius:8px}
+.is-multipleitem #content-wrap .content .post-outer:nth-of-type(2n+0){padding-left:0;padding-right:0}
+.is-multipleitem #content-wrap .content .post-outer .img-thumbnail{border-radius:0;position:relative;max-width:300px;height:0;padding-bottom:100%;width:100%;overflow:hidden}
+.is-multipleitem #content-wrap .content .post-outer .img-thumbnail img{width:100%;display:block;max-width:300px}
+.is-multipleitem #content-wrap .content .post-outer .post-summary-wrap{padding:0 8px 20px 8px;text-align:left;overflow:hidden;height:125px!important}
+.is-multipleitem #content-wrap .content .post-outer .post-title{margin:13px 0 8px;display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:2;max-height:38px;font-size:14px;font-weight:600;line-height:19px;overflow:hidden}
+.is-multipleitem #content-wrap .content .post-outer .post-title a{font-stretch:normal;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;display:block}
+.is-multipleitem #content-wrap .content .post-outer span{font-weight:400;text-decoration:line-through;display:block;height:22px;line-height:22px;text-align:center;font-size:13px;font-size:.8125rem;color:#d65c49}
+.is-multipleitem #content-wrap .content .post-outer .post-snippet{height:110px;overflow:hidden;padding:0;font-size:11px;font-size:.6875rem}
+.is-multipleitem #content-wrap .content .post-outer .post-snippet .widget-harga-produk{font-stretch:normal;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;line-height:20px;margin-bottom:0;position:relative;display:block}
+.is-multipleitem #content-wrap .content .post-outer .blibli-harga-produk{display:block;color:#ff5822;font-size:14px;font-weight:700;font-stretch:normal;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.is-multipleitem #content-wrap .content .post-outer .blibli-persentase-harga{position:relative;display:inline-block;color:#777777;font-size:12px;font-weight:700;text-transform:uppercase;vertical-align:middle;margin-left:5px}
+.is-multipleitem #content-wrap .blibli-status-produk{position:absolute;left:0;padding:4px 8px 2px;font-weight:400;font-size:14px;border-radius:6px 0}
+.is-multipleitem #content-wrap .blibli-status-produk:nth-child(1){top:0}
+.is-multipleitem #content-wrap .blibli-status-produk:nth-child(2){top:25px}
+.is-multipleitem #content-wrap .blibli-status-produk:nth-child(3){top:50px}
+.is-multipleitem #content-wrap .blibli-status-produk:nth-child(4){top:75px}
+.is-multipleitem #content-wrap .content .post-outer .blibli-status-produk.habis{background:#373737}
+.is-multipleitem #content-wrap .content .post-outer .blibli-harga-diskon{display:inline-block;height:15px;text-decoration:line-through;color:#737373;font-weight:700;font-size:12px}
+.is-multipleitem #content-wrap .content .post-outer .post-snippet b.bliblil-widget-rating{display:block;margin-bottom:10px}
+.is-multipleitem #content-wrap .content .post-outer .post-snippet i.blibli-star,.blibli-star{font-weight:400;font-style:normal;display:inline-block}
+.is-multipleitem #content-wrap .content .post-outer .post-snippet i.blibli-star:before,.blibli-star:before{content:'';width:17px;height:17px;display:inline-block;margin:-2px;transition:all .3s ease;background:url("data:image/svg+xml,%3Csvg viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z' fill='%23ffc53e'/%3E%3C/svg%3E") no-repeat}
+.is-multipleitem #content-wrap .content .post-outer .post-snippet i.blibli-star.silver:before,i.blibli-star.silver:before{content:'';width:17px;height:17px;display:inline-block;margin:-2px;transition:all .3s ease;background:url("data:image/svg+xml,%3Csvg viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z' fill='%23a9acad'/%3E%3C/svg%3E") no-repeat}
+.is-multipleitem #content-wrap .content .post-outer .post-snippet i.blibli-star-angka{vertical-align:2px}
+.is-multipleitem #content-wrap .content .post-outer .post-snippet .blibli-button,.is-multipleitem #content-wrap .content .post-outer .post-snippet b.title-harga{display:none}
+@media only screen and (max-width:900px){.is-multipleitem #content-wrap .content .post-outer{width:31.3%}}
+@media only screen and (max-width:640px){.is-multipleitem #content-wrap .content .post-outer{width:48%}}
+@media only screen and (max-width:340px){.is-multipleitem #content-wrap .content .post-outer{width:100%;margin-bottom:15px;margin-right:0;margin-left:0}}
+/*Blibli Menu Footer Tiga Kolom*/
+#footer-wrap{position:relative;background:#fff;width:100%;padding:0;margin:0 auto;overflow:hidden}
+#blibli-halaman-bawah-utama{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:horizontal;-webkit-box-direction:normal;-ms-flex-flow:row wrap;flex-flow:row wrap;margin:0 auto;transition:all .5s;position:relative;width:calc(100% - 40px);padding:20px}
+#blibli-halaman-bawah-utama #blibli-halaman-kolom-dua,#blibli-halaman-bawah-utama #blibli-halaman-kolom-satu,#blibli-halaman-bawah-utama #blibli-halaman-kolom-tiga{-webkit-box-flex:1;-ms-flex:1 1 33%;flex:1 1 auto;max-width:50%;-webkit-box-sizing:border-box;box-sizing:border-box;margin:0 auto;z-index:1}
+#blibli-halaman-kolom-satu .blibliwidget-title,#blibli-halaman-kolom-dua .blibliwidget-title,#blibli-halaman-kolom-tiga .blibliwidget-title{text-align:left;text-transform:uppercase}
+#blibli-halaman-kolom-tiga #LinkList5 .blibliwidget-title,#blibli-halaman-kolom-tiga #LinkList6 .blibliwidget-title{display:block;margin:0}
+#blibli-halaman-kolom-satu .LinkList ul,#blibli-halaman-kolom-dua .PageList ul,#blibli-halaman-kolom-tiga .LinkList ul{padding:0 15px;margin:15px 0}
+#blibli-halaman-kolom-tiga #LinkList5 ul,#blibli-halaman-kolom-tiga #LinkList6 ul{padding:5px 0;margin:0 0 0 5px}
+#blibli-halaman-kolom-satu .LinkList ul li{list-style:none;padding:0;margin:0;border:0;display:block}
+#blibli-halaman-kolom-dua .PageList ul li{list-style: none;display: block;font-weight: 400;text-transform: none;font-size: 14px;font-size: .875rem;padding: 10px;margin-bottom: 10px;border-radius: 5px;-webkit-box-shadow: 0 0 24px -4px rgba(0,0,0,.12);box-shadow: 0 0 24px -4px rgba(0,0,0,.12);}
+#blibli-halaman-kolom-tiga .LinkList .blibliwidget-title,#blibli-halaman-kolom-tiga .LinkList .widget-content{display:inline-block;width:auto;text-transform:none;margin:0 0 5px 0}
+#blibli-halaman-kolom-tiga .LinkList ul li{background:#ffffff;display:inline-block;list-style:none;padding:0;margin:3px 2px;border:1px solid rgba(0,0,0,.06);border-radius:2px;}
+#blibli-halaman-kolom-tiga .LinkList ul li img{width:auto;height:15px;padding:5px;vertical-align:middle}
+#blibli-halaman-kolom-satu .HTML,#blibli-halaman-kolom-satu .HTML .blibliwidget-title,#blibli-halaman-kolom-tiga .LinkList ul li .blibli-title-hilang{display:none}
+#blibli-halaman-kolom-satu .LinkList ul li a{font-size:16px;font-weight:600}
+#blibli-halaman-kolom-satu .LinkList ul li i,#blibli-halaman-kolom-satu .blibli-bantuan i{background-repeat:no-repeat;height:22px;width:22px;display:inline-block;margin:1px;padding:0;vertical-align:-5px}
+#blibli-halaman-kolom-tiga .LinkList ul li i{background-repeat:no-repeat!important;height:30px;width:30px;display:inline-block;margin:1px;padding:0;vertical-align:-5px}
+#blibli-halaman-kolom-satu .blibli-bantuan i.contact1{background:url("data:image/svg+xml;charset=utf8,<svg xmlns='http://www.w3.org/2000/svg' width='22' height='22' viewBox='0 0 24 24'><path fill='black' d='M12,1C7,1 3,5 3,10V17A3,3 0 0,0 6,20H9V12H5V10A7,7 0 0,1 12,3A7,7 0 0,1 19,10V12H15V20H19V21H12V23H18A3,3 0 0,0 21,20V10C21,5 16.97,1 12,1Z'/></svg>")}
+#blibli-halaman-kolom-satu .LinkList ul li i.waktu{background:url("data:image/svg+xml;charset=utf8,<svg xmlns='http://www.w3.org/2000/svg' width='22' height='22' viewBox='0 0 24 24'><path fill='black' d='M12,2C6.47,2 2,6.5 2,12A10,10 0 0,0 12,22C14.25,22 16.33,21.24 18,20V17.28C16.53,18.94 14.39,20 12,20A8,8 0 0,1 4,12A8,8 0 0,1 12,4C15.36,4 18.23,6.07 19.41,9H21.54C20.27,4.94 16.5,2 12,2M11,7V13L16.25,16.15L17,14.92L12.5,12.25V7H11M20,11V18H22V11H20M20,20V22H22V20H20Z'/></svg>")}
+#blibli-halaman-kolom-satu .LinkList ul li i.kontak{background:url("data:image/svg+xml;charset=utf8,<svg xmlns='http://www.w3.org/2000/svg' width='22' height='22' viewBox='0 0 24 24'><path fill='black' d='M6.62,10.79C8.06,13.62 10.38,15.94 13.21,17.38L15.41,15.18C15.69,14.9 16.08,14.82 16.43,14.93C17.55,15.3 18.75,15.5 20,15.5A1,1 0 0,1 21,16.5V20A1,1 0 0,1 20,21A17,17 0 0,1 3,4A1,1 0 0,1 4,3H7.5A1,1 0 0,1 8.5,4C8.5,5.25 8.7,6.45 9.07,7.57C9.18,7.92 9.1,8.31 8.82,8.59L6.62,10.79Z'/></svg>")}
+#blibli-halaman-kolom-satu .LinkList ul li i.email{background:url("data:image/svg+xml;charset=utf8,<svg xmlns='http://www.w3.org/2000/svg' width='22' height='22' viewBox='0 0 24 24'><path fill='black' d='M20,8L12,13L4,8V6L12,11L20,6M20,4H4C2.89,4 2,4.89 2,6V18A2,2 0 0,0 4,20H20A2,2 0 0,0 22,18V6C22,4.89 21.1,4 20,4Z'/></svg>")}
+#blibli-halaman-kolom-satu .LinkList ul li i.alamat{background:url("data:image/svg+xml;charset=utf8,<svg xmlns='http://www.w3.org/2000/svg' width='22' height='22' viewBox='0 0 24 24'><path fill='black' d='M12,2C15.31,2 18,4.66 18,7.95C18,12.41 12,19 12,19C12,19 6,12.41 6,7.95C6,4.66 8.69,2 12,2M12,6A2,2 0 0,0 10,8A2,2 0 0,0 12,10A2,2 0 0,0 14,8A2,2 0 0,0 12,6M20,19C20,21.21 16.42,23 12,23C7.58,23 4,21.21 4,19C4,17.71 5.22,16.56 7.11,15.83L7.75,16.74C6.67,17.19 6,17.81 6,18.5C6,19.88 8.69,21 12,21C15.31,21 18,19.88 18,18.5C18,17.81 17.33,17.19 16.25,16.74L16.89,15.83C18.78,16.56 20,17.71 20,19Z'/></svg>")}
+#blibli-halaman-kolom-tiga .LinkList ul li i.facebook{background:url("data:image/svg+xml;charset=utf8,<svg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 24 24'><path fill='%23fff' d='M17,2V2H17V6H15C14.31,6 14,6.81 14,7.5V10H14L17,10V14H14V22H10V14H7V10H10V6A4,4 0 0,1 14,2H17Z'/></svg>");background-color:#3a579a;border-radius:4px;border:2px solid #3a579a}
+#blibli-halaman-kolom-tiga .LinkList ul li i.twitter{background:url("data:image/svg+xml;charset=utf8,<svg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 24 24'><path fill='%23fff' d='M22.46,6C21.69,6.35 20.86,6.58 20,6.69C20.88,6.16 21.56,5.32 21.88,4.31C21.05,4.81 20.13,5.16 19.16,5.36C18.37,4.5 17.26,4 16,4C13.65,4 11.73,5.92 11.73,8.29C11.73,8.63 11.77,8.96 11.84,9.27C8.28,9.09 5.11,7.38 3,4.79C2.63,5.42 2.42,6.16 2.42,6.94C2.42,8.43 3.17,9.75 4.33,10.5C3.62,10.5 2.96,10.3 2.38,10C2.38,10 2.38,10 2.38,10.03C2.38,12.11 3.86,13.85 5.82,14.24C5.46,14.34 5.08,14.39 4.69,14.39C4.42,14.39 4.15,14.36 3.89,14.31C4.43,16 6,17.26 7.89,17.29C6.43,18.45 4.58,19.13 2.56,19.13C2.22,19.13 1.88,19.11 1.54,19.07C3.44,20.29 5.7,21 8.12,21C16,21 20.33,14.46 20.33,8.79C20.33,8.6 20.33,8.42 20.32,8.23C21.16,7.63 21.88,6.87 22.46,6Z'/></svg>");background-color:#00abf0;border-radius:4px;border:2px solid #00abf0}
+#blibli-halaman-kolom-tiga .LinkList ul li i.youtube{background:url("data:image/svg+xml;charset=utf8,<svg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 24 24'><path fill='%23fff' d='M10,15L15.19,12L10,9V15M21.56,7.17C21.69,7.64 21.78,8.27 21.84,9.07C21.91,9.87 21.94,10.56 21.94,11.16L22,12C22,14.19 21.84,15.8 21.56,16.83C21.31,17.73 20.73,18.31 19.83,18.56C19.36,18.69 18.5,18.78 17.18,18.84C15.88,18.91 14.69,18.94 13.59,18.94L12,19C7.81,19 5.2,18.84 4.17,18.56C3.27,18.31 2.69,17.73 2.44,16.83C2.31,16.36 2.22,15.73 2.16,14.93C2.09,14.13 2.06,13.44 2.06,12.84L2,12C2,9.81 2.16,8.2 2.44,7.17C2.69,6.27 3.27,5.69 4.17,5.44C4.64,5.31 5.5,5.22 6.82,5.16C8.12,5.09 9.31,5.06 10.41,5.06L12,5C16.19,5 18.8,5.16 19.83,5.44C20.73,5.69 21.31,6.27 21.56,7.17Z'/></svg>");background-color:red;border-radius:4px;border:2px solid red}
+#blibli-halaman-kolom-tiga .LinkList ul li i.instagram{background:url("data:image/svg+xml;charset=utf8,<svg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 24 24'><path fill='%23fff' d='M7.8,2H16.2C19.4,2 22,4.6 22,7.8V16.2A5.8,5.8 0 0,1 16.2,22H7.8C4.6,22 2,19.4 2,16.2V7.8A5.8,5.8 0 0,1 7.8,2M7.6,4A3.6,3.6 0 0,0 4,7.6V16.4C4,18.39 5.61,20 7.6,20H16.4A3.6,3.6 0 0,0 20,16.4V7.6C20,5.61 18.39,4 16.4,4H7.6M17.25,5.5A1.25,1.25 0 0,1 18.5,6.75A1.25,1.25 0 0,1 17.25,8A1.25,1.25 0 0,1 16,6.75A1.25,1.25 0 0,1 17.25,5.5M12,7A5,5 0 0,1 17,12A5,5 0 0,1 12,17A5,5 0 0,1 7,12A5,5 0 0,1 12,7M12,9A3,3 0 0,0 9,12A3,3 0 0,0 12,15A3,3 0 0,0 15,12A3,3 0 0,0 12,9Z'/></svg>");background-color:#fd5949;border:2px solid #fd5949;border-radius:4px}
+#blibli-halaman-kolom-tiga .LinkList ul li i.linkedin{background:url("data:image/svg+xml;charset=utf8,<svg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 24 24'><path fill='%23fff' d='M19 3A2 2 0 0 1 21 5V19A2 2 0 0 1 19 21H5A2 2 0 0 1 3 19V5A2 2 0 0 1 5 3H19M18.5 18.5V13.2A3.26 3.26 0 0 0 15.24 9.94C14.39 9.94 13.4 10.46 12.92 11.24V10.13H10.13V18.5H12.92V13.57C12.92 12.8 13.54 12.17 14.31 12.17A1.4 1.4 0 0 1 15.71 13.57V18.5H18.5M6.88 8.56A1.68 1.68 0 0 0 8.56 6.88C8.56 5.95 7.81 5.19 6.88 5.19A1.69 1.69 0 0 0 5.19 6.88C5.19 7.81 5.95 8.56 6.88 8.56M8.27 18.5V10.13H5.5V18.5H8.27Z'/></svg>");background-color:#285AEB;border:2px solid #285AEB;border-radius:4px}
+#blibli-halaman-kolom-satu .FollowByEmail{background:rgba(0,0,0,0);color:#333333}
+#blibli-halaman-kolom-satu .FollowByEmail::-webkit-input-placeholder{color:#ffffff;opacity:.9}
+#blibli-halaman-kolom-satu .FollowByEmail::-moz-placeholder{color:#ffffff;opacity:.9}
+#blibli-halaman-kolom-satu .FollowByEmail:-ms-input-placeholder{color:#ffffff;opacity:.9}
+#blibli-halaman-kolom-satu .FollowByEmail::-ms-input-placeholder{color:#ffffff;opacity:.9}
+#blibli-halaman-kolom-satu .FollowByEmail::placeholder{color:#ffffff;opacity:.9}
+#blibli-halaman-kolom-satu .FollowByEmail .follow-by-email-address{background:#d1d7de}
+#blibli-halaman-kolom-satu .FollowByEmail .follow-by-email-submit{background:#3b85d4;color:#ffffff}
+#blibli-halaman-kolom-satu .FollowByEmail .follow-by-email-submit:hover{background:#195aa0}
+#blibli-halaman-kolom-satu .FollowByEmail .subscribewidget-title{position:relative;padding:5px 15px;word-break:break-word}
+#blibli-halaman-kolom-satu .FollowByEmail .subscribewidget-title h3.title{text-transform:uppercase;font-size:20px;font-size:1.3rem;margin:0;line-height:10px;line-height:1rem;text-align:left}
+#blibli-halaman-kolom-satu .FollowByEmail .widget-content{padding:0;text-align:left}
+#blibli-halaman-kolom-satu .FollowByEmail .widget-content .follow-by-email-inner form .follow-by-email-address{padding:15px 20px;border-radius:4px;margin:5px;border:none}
+#blibli-halaman-kolom-satu .FollowByEmail .widget-content .follow-by-email-inner form .follow-by-email-submit{cursor:pointer;padding:15px 20px;margin:5px;border:none;border-radius:4px;-webkit-transition:all .2s;transition:all .2s;text-transform:uppercase}
+@media only screen and (max-width:900px){
+#blibli-halaman-kolom-satu .HTML{display:block}
+#blibli-halaman-bawah-utama #blibli-halaman-kolom-satu, #blibli-halaman-bawah-utama #blibli-halaman-kolom-dua, #blibli-halaman-bawah-utama #blibli-halaman-kolom-tiga{max-width:100%}
+#blibli-halaman-bawah-utama #blibli-halaman-kolom-satu,#blibli-halaman-bawah-utama #blibli-halaman-kolom-dua,#blibli-halaman-bawah-utama #blibli-halaman-kolom-tiga,#blibli-halaman-kolom-satu .blibliwidget-title,#blibli-halaman-kolom-dua .blibliwidget-title,#blibli-halaman-kolom-tiga .blibliwidget-title,#blibli-halaman-kolom-satu .FollowByEmail .subscribewidget-title h3.title,#blibli-halaman-kolom-satu .FollowByEmail .widget-content{text-align:center}#blibli-halaman-kolom-satu .LinkList ul li,#blibli-halaman-kolom-dua .PageList ul li{display:inline-block;margin:0 5px}#blibli-halaman-kolom-dua .PageList ul li:before{content:" | ";margin:0 5px}#blibli-halaman-kolom-dua .PageList ul li:first-child:before{display:none}#blibli-halaman-kolom-satu .LinkList .blibliwidget-title,#blibli-halaman-kolom-dua .PageList,#blibli-halaman-kolom-tiga .HTML,#blibli-halaman-kolom-tiga .Image{display:none}}
+/*blibli-spoiler*/
+.blibli-spoiler{text-align:center;margin:15px 0 0}
+.blibli-spoiler input[type=checkbox]:checked~label:after{-webkit-transform:rotate(180deg);transform:rotate(180deg)}
+.blibli-spoiler input[type=checkbox]~label:after{background-image:url("data:image/svg+xml,<svg viewBox='0 0 512 512' xmlns='http://www.w3.org/2000/svg'><path d='M256 294.1L383 167c9.4-9.4 24.6-9.4 33.9 0s9.3 24.6 0 34L273 345c-9.1 9.1-23.7 9.3-33.1.7L95 201.1c-4.7-4.7-7-10.9-7-17s2.3-12.3 7-17c9.4-9.4 24.6-9.4 33.9 0l127.1 127z' fill='%230095da'/></svg>");content:'';position:absolute;margin-top:7px;width:16px;height:16px;background-size:cover;background-repeat:no-repeat;background-position:center center;float:none;transition:all .3s ease;-webkit-transition:all .3s ease;text-align:right;right:15px}
+.blibli-spoiler .blibli-spoiler_title{display:inline;float:left;margin:3px 10px 0 0;padding:4px 0;font-size:16px;line-height:1}
+.blibli-spoiler label{cursor:pointer;background:transparent;color:#0094da;margin:0;padding:8px 40px 8px 15px;outline:none;border-radius:5px;-moz-border-radius:5px;transition:all .3s ease-in-out;display:inline;font-size:14px;font-family:arial,san-serif;line-height:1.5em;font-weight:700;position:relative}
+.blibli-spoiler input{position:absolute;left:-999em;opacity:0}
+.blibli-spoiler .content_box{width:100%;background:transparent;height:auto;padding:6px 10px;margin:8px 0 0;overflow:hidden;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box;display:none}
+.blibli-spoiler .content_box .content{display:none}
+.blibli-spoiler .content p{padding:0;margin:0;font-size:14px;font-weight:400}
+.blibli-spoiler .content p img{margin:4px 0 0;max-width:100%;height:auto}
+.blibli-spoiler input[type=checkbox]:checked~.content_box .content{display:block;-webkit-animation:slide-down .3s ease-out;-moz-animation:slide-down .3s ease-out}
+.blibli-spoiler input[type=checkbox]:checked~.content_box{display:block;text-align:center}
+@-webkit-keyframes slide-down{0%{opacity:0;-webkit-transform:translateY(-100%)}100%{opacity:1;-webkit-transform:translateY(0)}}@-moz-keyframes slide-down{0%{opacity:0;-moz-transform:translateY(-100%)}100%{opacity:1;-moz-transform:translateY(0)}}
+/*Blibli Halaman Kredit*/
+#blibli-halaman-kredit{background:#f1f1f1;padding:5px 0 10px 0}
+#blibli-content-kredit{background:#f1f1f1}
+#blibli-content-kredit,#blibli-content-kredit a{color:#ffffff}
+#blibli-content-kredit a:hover{color:#3b85d4}
+#blibli-halaman-kredit #blibli-content-kredit{padding:20px 36px;margin:0 auto;-webkit-box-sizing:border-box;box-sizing:border-box;text-align:center;font-size:12px;font-size:.75rem}
+#blibli-halaman-kredit #blibli-content-kredit .blibliwidget-title,#blibli-halaman-kredit #blibli-content-kredit .blibliwidget-title:after,#blibli-halaman-kredit #blibli-content-kredit h3.title{display:none}
+#blibli-halaman-kredit #blibli-content-kredit .PageList{float:right}
+#blibli-halaman-kredit #blibli-content-kredit .HTML{float:left}
+#blibli-halaman-kredit #blibli-content-kredit .PageList ul{margin:0 0 10px;padding:0}
+#blibli-halaman-kredit #blibli-content-kredit .PageList ul li{list-style-type:none;display:inline-block}
+#blibli-halaman-kredit #blibli-content-kredit .PageList ul li:after{content:" | ";margin:0 5px}
+#blibli-halaman-kredit #blibli-content-kredit .PageList ul li:last-child:after{display:none}
+@media only screen and (max-width:900px){#blibli-halaman-kredit #blibli-content-kredit .PageList,#blibli-halaman-kredit #blibli-content-kredit .HTML{float:none}#blibli-halaman-kredit #blibli-content-kredit{padding:20px 30px}}@media only screen and (max-width:480px){#blibli-halaman-kredit #blibli-content-kredit{padding:20px 22px}}
+/* Blibli Menu Button Bawah*/
+#blibli-widget-button-mobile{position:fixed;bottom:0;width:100%;height:58px;background:#ffffff;z-index:90;color:#212121;box-shadow:rgba(0,0,0,.12) 3px 3px 3px 3px,rgba(0,0,0,.24) 3px 3px 3px 3px;display:none}
+#blibli-widget-button-mobile a{color:#212121;text-decoration:none}
+.blibli-menu-button{width:25%;float:left;text-align:center;padding:5px 0;font-size:12px;position:relative}
+.blibli-menu-button span{width:100%;font-size:2em;color:#0094da;margin:0;float:left}
+#blibli-widget-button-mobile .blibli-menu-button i.icon1,#blibli-widget-button-mobile .blibli-menu-button i.icon2,#blibli-widget-button-mobile .blibli-menu-button i.icon3,#blibli-widget-button-mobile .blibli-menu-button i.icon4,#blibli-widget-button-mobile .blibli-menu-button i.icon5{background-repeat:no-repeat;height:22px;width:22px;display:block;margin:0 auto;padding:0;margin-top:7px;text-align:center}
+#blibli-widget-button-mobile .blibli-menu-button i.icon1 {background: url("data:image/svg+xml;charset=utf8,<svg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'><path fill='%23333' d='M9,13H15V19H18V10L12,5.5L6,10V19H9V13M4,21V9L12,3L20,9V21H4Z'/></svg>")}
+#blibli-widget-button-mobile .blibli-menu-button i.icon2 {background: url("data:image/svg+xml;charset=utf8,<svg xmlns='http://www.w3.org/2000/svg' width='22' height='22' viewBox='0 0 24 24'><path fill='%23333' d='M19 6H17C17 3.2 14.8 1 12 1S7 3.2 7 6H5C3.9 6 3 6.9 3 8V20C3 21.1 3.9 22 5 22H19C20.1 22 21 21.1 21 20V8C21 6.9 20.1 6 19 6M12 3C13.7 3 15 4.3 15 6H9C9 4.3 10.3 3 12 3M19 20H5V8H19V20M12 12C10.3 12 9 10.7 9 9H7C7 11.8 9.2 14 12 14S17 11.8 17 9H15C15 10.7 13.7 12 12 12Z'/></svg>")}
+#blibli-widget-button-mobile .blibli-menu-button i.icon4 {background: url("data:image/svg+xml;charset=utf8,<svg xmlns='http://www.w3.org/2000/svg' width='22' height='22' viewBox='0 0 24 24'><path fill='%23333' d='M22 6C22 4.9 21.1 4 20 4H4C2.9 4 2 4.9 2 6V18C2 19.1 2.9 20 4 20H20C21.1 20 22 19.1 22 18V6M20 6L12 11L4 6H20M20 18H4V8L12 13L20 8V18Z'/></svg>")}
+#blibli-widget-button-mobile .blibli-menu-button .icon-keranjang{display:block;margin:0 auto;padding:0;margin-top:2px;text-align:center}
+#blibli-widget-button-mobile .blibli-menu-button .icon-keranjang path{fill:#444444}
+#blibli-widget-button-mobile .blibli-menu-button .icon-keranjang svg{width:28px;height:28px;vertical-align:middle}
+#blibli-widget-button-mobile .blibli-menu-button .icon-keranjang span{position:relative;display:block;margin:auto;text-align:center;font-size:12px;color:#212121}
+@media only screen and (max-width:900px){#blibli-widget-button-mobile{display:block}#blibli-halaman-kredit{margin-bottom:60px}a.blibli-whatsapp-show-chat.wa-mobile{display:block;position:relative;background:transparent;font-size:12px;bottom:unset;right:unset;padding:0;border-radius:0;box-shadow:none;}a.blibli-whatsapp-show-chat{display:none}a.blibli-whatsapp-show-chat i{margin:0}}
+/*Blibli Produk Terlaris*/
+#blibli-popular-product-in-home,#blibli-owl-popular{position:relative;width:100%;display:block;overflow:hidden;margin:auto;}
+#blibli-popular-product-in-home .produk-terlaris-pemisah .blibli-produk-terlaris-content{margin:5px 10px;padding:5px;border-radius:8px;box-shadow:0px 0px 2px 0px rgba(64,64,64,0.28)}
+#blibli-popular-product-in-home .PopularPosts .popular-post-title a{font-stretch:normal;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;display:block}
+#blibli-popular-product-in-home .PopularPosts .blibli-produk-terlaris-title{margin-top: 20px;padding: 15px 0;height: 40px;position: relative;width: 100%;margin: 0 auto;}
+#blibli-popular-product-in-home .PopularPosts .blibli-produk-terlaris-title .blibli-popular-garis{height: 17px;border-bottom: 1px solid #efefef;text-align: left;}
+#blibli-popular-product-in-home .PopularPosts .blibli-produk-terlaris-title h3.title{background:#ffffff;color:#444444;padding: 8px 10px 6px 10px;font-size: 16px;line-height: 20px;border-radius: 0;margin: 0;display: inline-block;border: 1px solid #efefef;text-transform: uppercase;}
+.PopularPosts{position:relative;margin:14px auto 15px}
+.PopularPosts .blibli-produk-terlaris-snippet{color:#737373}
+.PopularPosts .popular-post-title a{color:#575a5f}
+.PopularPosts .popular-post-title a:hover{color:#2674a6}
+.PopularPosts .blibli-produk-terlaris-title h3.title{display:none}
+.produk-terlaris-pemisah{width:calc(100% - 10px);padding:5px;color:inherit}
+.produk-terlaris-pemisah .blibli-produk-terlaris-pertama .blibli-produk-terlaris-thumbnail-gambar a,.produk-terlaris-pemisah .blibli-produk-terlaris-pertama .blibli-produk-terlaris-thumbnail-gambar img{display:block}
+.produk-terlaris-pemisah .blibli-produk-terlaris-pertama .blibli-produk-terlaris-thumbnail-gambar img{width:100%}
+.produk-terlaris-pemisah .blibli-produk-terlaris-pertama .blibli-produk-terlaris-info{padding:10px 15px}
+.produk-terlaris-pemisah .blibli-produk-terlaris-pertama .blibli-produk-terlaris-info .popular-post-title{margin:0}
+.produk-terlaris-pemisah .blibli-produk-terlaris-pertama .blibli-produk-terlaris-info .blibli-produk-terlaris-snippet{margin-top:8px;font-size:14px;font-size:.875rem}
+.produk-terlaris-pemisah .blibli-produk-terlaris-pertama .blibli-produk-terlaris-info-gambar{padding:10px 15px}
+.produk-terlaris-pemisah .blibli-produk-terlaris-content{margin:2px 0}
+.blibli-produk-terlaris-content .blibli-produk-terlaris-thumbnail-gambar img{width:100%;border-radius:7px}
+.produk-terlaris-pemisah .blibli-produk-terlaris-content .blibli-produk-terlaris-info{padding:0}
+.produk-terlaris-pemisah .blibli-produk-terlaris-content .blibli-produk-terlaris-info .popular-post-title{font-size:14px;margin:0}
+.produk-terlaris-pemisah .blibli-produk-terlaris-content .blibli-produk-terlaris-info .blibli-produk-terlaris-snippet{margin:0;font-size:14px;font-size:.875rem}
+.produk-terlaris-pemisah .blibli-produk-terlaris-isi-snippet{height:40px;overflow:hidden;width:100%}
+.produk-terlaris-pemisah .blibli-produk-terlaris-content .blibli-produk-terlaris-isi-snippet{height:95px;overflow:hidden;width:100%}
+.produk-terlaris-pemisah .blibli-produk-terlaris-pertama .blibli-status-produk{position:absolute;padding:3px;left:0;display:block}
+.produk-terlaris-pemisah .blibli-produk-terlaris-pertama .blibli-discount{position:absolute;right:0;top:0;padding:3px}
+.produk-terlaris-pemisah .blibli-produk-terlaris-pertama .blibli-status-produk:nth-child(1){top:0}
+.produk-terlaris-pemisah .blibli-produk-terlaris-pertama .blibli-status-produk:nth-child(2){top:30px}
+.produk-terlaris-pemisah .blibli-produk-terlaris-pertama .blibli-status-produk:nth-child(3){top:60px}
+.produk-terlaris-pemisah .blibli-produk-terlaris-pertama .blibli-status-produk:nth-child(4){top:90px}
+.produk-terlaris-pemisah .blibli-produk-terlaris-content .blibli-status-produk{position:absolute;padding:3px 5px;display:block;font-size:14px;border-radius:6px 0}
+.produk-terlaris-pemisah .blibli-produk-terlaris-content .blibli-status-produk:nth-child(1){top:10px;}
+.produk-terlaris-pemisah .blibli-produk-terlaris-content .blibli-status-produk:nth-child(2){top:40px;}
+.produk-terlaris-pemisah .blibli-produk-terlaris-content .blibli-status-produk:nth-child(3){top:65px;}
+.produk-terlaris-pemisah .blibli-produk-terlaris-content .blibli-status-produk:nth-child(4){top:90px;}
+.produk-terlaris-pemisah .blibli-produk-terlaris-content .blibli-status-produk.habis{background:#373737}
+.produk-terlaris-pemisah .blibli-button,.produk-terlaris-pemisah b.title-harga{display:none}
+.produk-terlaris-pemisah .widget-harga-produk{font-stretch:normal;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;line-height:20px;position:relative;display:block}
+.produk-terlaris-pemisah .blibli-produk-terlaris-content .blibli-harga-diskon{display:inline-block;height:15px;text-decoration:line-through;color:#737373;font-weight:700;font-size:12px}
+.produk-terlaris-pemisah .blibli-produk-terlaris-content .blibli-harga-produk{display:block;color:#ff5822;font-size:14px;font-weight:700;font-stretch:normal;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.produk-terlaris-pemisah .blibli-produk-terlaris-content .blibli-persentase-harga{position:relative;display:inline-block;color:#777777;font-size:12px;font-weight:700;text-transform:uppercase;vertical-align:middle;margin-left:5px}
+.produk-terlaris-pemisah b.bliblil-widget-rating{display:block;}
+.produk-terlaris-pemisah i.blibli-star-angka{font-weight:400;font-size:12px}
+@media only screen and (max-width:900px){#PopularPosts2{display:none;}}
+@media only screen and (max-width:380px){#blibli-popular-product-in-home .PopularPosts .blibli-produk-terlaris-title h3.title{font-size:12px;}}
+/*Blibli Tab Deskrispi Produk*/
+#blibli-informasi-produk{position:relative;padding:0 10px;margin:auto;margin-top:20px;}
+.blibli-widget-produk-informasi-kiri{float:left;width:69%;box-shadow:0 1px 4px 0 rgba(0,0,0,.14)}
+.blibli-widget-produk-informasi-kanan{float:right;width:30%}
+.blibli-background-atas-post-sidebar{padding:25.5px;background-color:#0094da;margin-bottom:10px}
+.blibli-background-atas-post-sidebar{padding:25.5px;background-color:#0094da;margin-bottom:10px}
+.blibli-widget-produk-informasi-kanan .cart-table{display:table;width:calc(100% - 4px);border:1px solid #f2f2f2;box-shadow:0 1px 4px 0 rgba(0,0,0,.14)}
+.blibli-widget-produk-informasi-kanan .cart-table img.gambar-sidebar{display:table-cell;vertical-align:middle;padding:5px;width:100%;text-align:center}
+.blibli-widget-produk-informasi-kanan .cart-table span.judul-disidebar{width:69%;padding:10px;display:table-cell;vertical-align:middle}
+.blibli-widget-produk-informasi-kanan .blibli-harga-sidebar{font-size:30px;font-weight:700;color:#ff5822;font-stretch:normal;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;text-align:center;border-left:1px solid #f2f2f2;border-right:1px solid #f2f2f2}
+.blibli-beli-lewat-chat{background:#0094da;position:relative;margin:auto;text-align:center;padding:10px;box-shadow:0 1px 4px 0 rgba(0,0,0,.14)}.blibli-beli-lewat-chat a.beli-sekarang-juga{color:#ffffff}
+@media only screen and (max-width:900px){.blibli-widget-produk-informasi-kiri{float:none;width:100%}.blibli-widget-produk-informasi-kanan{display:none;}.blibli-widget-produk-informasi-kiri{margin-top:15px}}
+/*Blibli Tab Deskripsi*/
+.tabs input[type=&quot;radio&quot;]{background-color:initial;cursor:default;-webkit-appearance:radio;box-sizing:border-box;margin:3px 3px 0 5px;padding:initial;border:initial}
+.tabs .tab-selector-1:checked~.content .content-1,.tabs .tab-selector-2:checked~.content .content-2,.tabs .tab-selector-3:checked~.content .content-3,.tabs .tab-selector-4:checked~.content .content-4{opacity:1;width:100%;height:auto;width:100%;height:auto;padding:10px}
+.content-1, .content-2, .content-3 {position:relative;float:left;height:0;box-sizing:border-box;top:0;left:0;z-index:1;opacity:0;background:#ffffff}
+.tabs {position:relative;margin:0;width:100%;display:inline-block;overflow:hidden;border:0;background-color:#0094da}
+.tabs h3{margin:0!important}
+.tabs input {display:none}
+.tabs input:checked+h3 label {border-bottom:3px solid #f7931e;color:#ffffff}
+.tabs label {cursor:pointer;color:rgba(255, 255, 255, 0.6);font-size:13px;padding:10px 20px 18px;float:left;text-align:center;box-sizing:border-box;-webkit-transition:all 150ms ease 0;}
+.tombol-beli, .deskripsi-produk {float:left;width:100%;}
+/*Blibli Tampilan Produk Post*/
+.post-body{word-wrap:break-word}
+.post-body a:link{text-decoration:none}
+.post-body a[imageanchor],.is-post .separator>a{display:block;margin-left:0!important;margin-right:0!important;text-align:center}
+.post-body iframe{max-width:100%;display:block;margin:0 auto}
+.post-body table.tr-caption-container{margin-bottom:1rem;position:relative}
+.post-body td.tr-caption{font-size:12px;font-size:.75rem;position:absolute;bottom:0;right:0;background:rgba(0,0,0,.5);padding:3px 10px;color:#fff;border-radius:11px 0 0 0}
+.post-body table.tr-caption-container a,.post-body table.tr-caption-container img{display:block;margin-bottom:0!important}
+.post-body .blibli-widget-gambar-produk{text-align:center;padding:5px;float:left;width:42%;position:relative}
+.post-body .blibli-widget-gambar-produk .post-thumb{display:none;}
+.blibli-widget-gambar-produk img{width:100%;cursor:zoom-in!important}
+.blibli-widget-gambar-produk img.hidden.item_thumb{display:none;}
+.post-body .blibli-widget-status-produk{position:absolute;left:10px;top:10px;font-size:11px;font-size:.6875rem;text-transform:uppercase;font-weight:400;z-index:2}
+.post-body .blibli-widget-status-produk .blibli-status-produk,.post-body .blibli-widget-status-produk .blibli-discount{position:relative;padding:0 5px;margin-bottom:4px;border-radius:3px;font-size:12px;text-transform:uppercase;font-weight:700;height:24px;line-height:24px;text-align:center;background:#038ce3;color:#ffffff;display:block}
+.post-body .blibli-widget-gambar-produk button.next1,.post-body .blibli-widget-gambar-produk button.prev1{position:absolute;top:50%;outline:none;border:none;padding:5px 10px;text-align:center;margin:0 5px;background:#333;color:#fff;font-size:150%;opacity:.2;cursor:pointer}
+.post-body .blibli-widget-gambar-produk button.next1{right:0}
+.post-body .blibli-widget-gambar-produk button.prev1{left:0}
+.harga-produk {display: table;width: 100%;padding: 10px 0;border-bottom: solid 1px #ddd;position: relative;}
+.post-body .harga-produk b.title-harga{position:relative;width:100px;display: table-cell;font-size: 14px;font-weight: bold;vertical-align: top;}
+.post-body .harga-produk .widget-harga-produk{display:block;text-align:left;font-size:20px;font-weight:700;margin:0;color:#ff5822;font-stretch:normal;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.post-body .harga-produk .strike{color:#777777;display: block;vertical-align: top;font-size:16px;text-decoration:line-through}
+.post-body .harga-produk .item_price{display: -ms-flexbox;display: inline-flex;-ms-flex-align: center;align-items: center;margin: 2px 0;}
+.post-body .harga-produk .blibli-discount {color: #ed1c24;font-size: 14px;display: inline-block;vertical-align: top;line-height: normal;margin-left: 7px;border: 1px solid;padding: 0px 2px;margin-top: 7px;}
+.post-body .harga-produk .blibli-discount:after {content: "OFF";}
+.post-body .detail-produk,.post-body .blibli-rating-produk,.post-body .blibli-widget-detail-produk,.post-body .blibli-widget-detail-voucher,.post-body .tombol-beli-and-share{padding:0;width:55%;float:right;box-sizing:border-box}
+.post-body .blibli-widget-detail-voucher{display:none;}
+.blibli-rating-produk i.blibli-star-angka{font-weight:400;font-size:12px;margin-left:5px;vertical-align:1px}
+.blibli-fitur-produk{position:relative;display:block;padding:5px;margin-top:10px;font-size:14px}
+h3.blibli-produk-detail{margin:0;line-height:25px}.blibli-produk-detail-kanan{float:left;width:49%;display:block}
+span.blibli-detail-kanan{position:relative;display:block;margin:5px 5px 10px 0;padding:10px 5px;border:1px solid #ddd}
+.blibli-produk-detail-kiri{float:right;width:49%}
+span.blibli-detail-kiri{position:relative;display:block;margin:5px 0 10px 0;padding:10px 5px;border:1px solid #ddd}
+.post-body .blibli-widget-detail-produk .blibli-varian{display: table;width: 100%;margin: 10px 0;border-bottom: 1px solid #ddd;}
+.post-body .blibli-widget-detail-voucher .blibli-varian {display: table;width: 100%;margin: 10px 0;padding-top:10px;border-top:1px solid #ddd;border-bottom: 1px solid #ddd;}
+.post-body .blibli-widget-detail-produk .blibli-title-varian,.post-body .blibli-widget-detail-voucher .blibli-title-varian {display: table-cell;font-size: 14px;font-weight: bold;width: 100px;vertical-align: top;line-height: normal;}
+.post-body .blibli-widget-detail-produk ul.blibli-pilihan-varian1-satu,.post-body .blibli-widget-detail-produk ul.blibli-pilihan-varian1-dua {display: table-cell;padding-left: 0;vertical-align: top;font-size: 14px;}
+.post-body .blibli-widget-detail-produk ul.blibli-pilihan-varian1-satu li,.post-body .blibli-widget-detail-produk ul.blibli-pilihan-varian1-dua li {border-radius: 3px;border: solid 1px #cccccc;display: inline-block;padding: 5px 10px;margin: 0px 10px 10px 0px;cursor: pointer;position: relative;}
+.post-body .blibli-widget-detail-produk ul.blibli-pilihan-varian1-satu li.item_size,.post-body .blibli-widget-detail-produk ul.blibli-pilihan-varian1-dua li.item_size {background: #0094da;color: #ffffff;border-color: #0094da;border: solid 1px #0094da;}
+.post-body .blibli-widget-detail-produk div.blibli-pilihan-varian1-dua,.post-body .blibli-widget-detail-voucher div.blibli-pilihan-varian1-dua {line-height: normal;margin-bottom: 10px;}
+.post-body .blibli-widget-detail-produk .blibli-keterangan-varian,.post-body .blibli-widget-detail-voucher .blibli-keterangan-varian {display: table-cell;vertical-align: top;font-size: 14px;}
+.post-body .blibli-widget-detail-produk span.blibli-icon-varian {position: relative;display: inline-block;height: 16px;width: 16px;background-color: #fff;border: 1px solid #2196F3;border-radius: 50%;vertical-align: top;}
+.post-body .blibli-widget-detail-produk ul li.pilihan-habis,.post-body .blibli-widget-detail-produk ul li.pilihan-habis.item_size{background:#000!important;color:#fff!important;border:1px solid #ddd!important;}
+.post-body .blibli-widget-detail-produk span.blibli-icon-varian:after {content: "";position: absolute;top: 3px;left: 3px;width: 10px;height: 10px;border-radius: 50%;background: #0094da;}
+.blibli-menu-jumlah-produk {display: table;width: 100%;}
+.blibli-title-jumlah {display: table-cell;width:100px;font-size: 14px;font-weight: bold;vertical-align: top;}
+.blibli-cell-jumlah-produk {display: table-cell;vertical-align: top;font-size: 14px;}
+.blibli-jumlah-produk{display: table;width: 100px;border-radius: 2px;background-color: #ffffff;border: solid 1px #cccccc;height: 30px;}
+.blibli-jumlah-produk button{display: table-cell;width:30px;background-color: #e5e5e5;text-align: center;vertical-align: middle;cursor: pointer;font-size: 18px;outline: 0;height:30px;border:0}
+.blibli-jumlah-produk button.min{border-radius:2px 0 0 2px}
+.blibli-input-jumlah {display: table-cell;width: 70px;border: 0;}
+.blibli-jumlah-produk input {width: 100%;border: none;outline: none;text-align: center;}
+.blibli-jumlah-produk button.plus{border-radius:0 2px 2px 0}
+select.blibli-opsi-produk.item_size{padding:12px 0;color:#555;font-size:16px;width:100%;border:0;border:1px solid #ddd;outline:none;background:#ffffff;margin:5px 0}
+#myVoucher{font-size:14px;padding:12px 0;display:inline-block;border:none;border-bottom:1px solid #ddd;outline:0}
+#vcrBtn{background:#0094da;color:#fff;margin:5px 0;padding:10px 10px;text-align:center;cursor:pointer;font-size:14px;outline:0;border:0}
+@media only screen and (max-width:800px){
+.post-body .blibli-widget-gambar-produk{padding:0}
+.post-body .harga-produk .blibli-discount{border:0}
+.post-body .harga-produk .blibli-discount:before {content: "(";}
+.post-body .harga-produk .blibli-discount:after {content: ")";}
+.post-body .blibli-widget-gambar-produk,.post-body .detail-produk,.post-body .blibli-rating-produk,.post-body .blibli-widget-detail-produk,.post-body .blibli-widget-detail-voucher,.post-body .tombol-beli-and-share{float:none;width:100%;text-align:left}
+.post-body .blibli-widget-detail-produk span.blibli-detail-kanan,.post-body .blibli-widget-detail-produk span.blibli-detail-kiri{text-align:left}
+}
+@media only screen and (max-width:480px){
+.is-post #content-wrap{padding:10px}
+.post-body img.fullwidth{margin:0 -22px;width:100vw}
+.post-body img.fullwidth{max-width:100vw}.post-body a[imageanchor],table.tr-caption-container{float:none!important}
+.separator>a,.post-body a[imageanchor],table.tr-caption-container{margin-left:auto!important;margin-right:auto!important}
+.post-body .blibli-widget-detail-produk .blibli-title-varian,.post-body .blibli-widget-detail-voucher .blibli-title-varian{width:auto;display:block;margin-bottom:10px}
+.post-body .blibli-widget-detail-produk ul.blibli-pilihan-varian1-satu,.post-body .blibli-widget-detail-produk ul.blibli-pilihan-varian1-dua,.post-body .blibli-widget-detail-voucher ul.blibli-pilihan-varian1-dua{display:inline-block;margin:5px 0}
+.blibli-title-jumlah{display:none;}
+.blibli-jumlah-produk{width:100%;}
+.blibli-input-jumlah{width:100%;}
+.blibli-jumlah-produk button{width:85px;}
+}
+.post-filter-message{-webkit-box-flex:1;-ms-flex:1 1 100%;flex:1 1 100%;max-width:100%;text-align:center;margin:0 0 30px;border:1px solid rgba(51,51,51,.16);padding:15px}
+.post-filter-message .post-filter-description .search-label,.post-filter-message .post-filter-description .search-query{font-weight:700}.status-message-danger{text-align:center;margin:30px 0}
+.iklan-atas .widget,.iklan-atas .widget-content,.iklan-bawah .widget,.iklan-bawah .widget-content{margin:0!important}
+.post-body .widget-content{text-align:center;margin:.8em 0;display:block}.post-body .widget-content:blank{margin:0}
+#top-widget{-webkit-box-sizing:border-box;box-sizing:border-box;-webkit-box-flex:1;-ms-flex:1 1 100%;flex:1 1 100%;max-width:100%;text-align:center}
+#top-widget .widget-content{text-align:center;margin:0 0 36px}
+@media only screen and (max-width:900px){#top-widget .widget-content{margin:0 0 30px}}
+@media only screen and (max-width:480px){#top-widget .widget-content{margin:0 0 22px}}
+#top-widget .blibliwidget-title,#top-widget .blibliwidget-title:after,#top-widget h3{display:none;visibility:hidden;height:0;opacity:0}
+.blibli-title-atas-post{width:100%;margin:0 0 30px;position:relative;text-align:center;line-height:16px;line-height:1rem}
+.blibli-title-atas-post:after{content:"";position:absolute;top:0;left:0;right:0;height:16px;height:1rem}
+.blibli-title-atas-post h2{position:relative;z-index:1;display:inline-block;margin:0;padding:0 10px;font-size:16px;font-size:1rem;text-transform:uppercase}
+.post-body img{cursor:pointer}
+.bliblizoom.active{position:fixed;top:0;left:0;bottom:0;right:0;z-index:9999999;background:#000;}
+.bliblizoom.active img{width:auto;max-width:100%;height:100%;position:absolute;left:50%;top:50%;transform:translate(-50%, -50%);}
+.flow{overflow:hidden;position:relative;}
+.bliblizoom.active:after{content:"";cursor:pointer;width:25px;height:25px;background-image:url("data:image/svg+xml;charset=utf8,%3csvg viewBox='0 0 24 24' width='20' height='20' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3e%3cg%3e%3cpath style='fill:%23cccccc' d='M19,6.41L17.59,5L12,10.59L6.41,5L5,6.41L10.59,12L5,17.59L6.41,19L12,13.41L17.59,19L19,17.59L13.41,12L19,6.41Z'%3e%3c/path%3e%3c/g%3e%3c/svg%3e");background-position:top right;-webkit-background-size:25px 25px;background-size:25px 25px;position:absolute;top:10px;right:10px;z-index:2;opacity:0;transition:all .4s ease-in-out}
+.bliblizoom.active:hover:after{opacity:.8}
+@media screen and (max-width:800px){.bliblizoom.active img{width:100%;height:auto;}}
+/*Tombol Tambah dan Beli Sekarang*/
+.is-post .blibli-tombol-beli{position:relative;display:block;width:100%;margin:auto;text-align:center;margin-top:20px;border-bottom:1px solid #ddd}
+.is-post .blibli-tombol-beli .stock,li.pilihan-habis .stock{display:block;position:absolute;top:0;left:0;width:100%;height:100%;background:rgba(255,255,255,.8)}
+.is-post .blibli-tombol-beli .blibli-menu-tombol-beli{padding:10px 0;display: table;width: 100%;table-layout: fixed;}
+.blibli-menu-kanan-tombol-beli {display: table-cell;vertical-align: middle;padding-right: 10px;}
+.blibli-menu-kiri-tombol-beli {display: table-cell;vertical-align: middle;padding-left: 10px;}
+.is-post .blibli-menu-tombol-beli .blibli-beli-langsung{background:#ef440c;padding:10px;border-radius:8px;color:#ffffff;outline:0;cursor:pointer;}
+.is-post .blibli-menu-tombol-beli .blibli-menu-tambah{background:#0094da;padding:10px;border-radius:8px;color:#ffffff;outline:0;cursor:pointer;}
+.is-post .blibli-menu-tombol-beli a.item_add{color:#ffffff;font-size:14px;font-weight:600;text-align:center;cursor:pointer;text-transform:uppercase;text-decoration:none}
+@media only screen and (max-width:900px){
+.is-post .blibli-tombol-beli{position:fixed;right:0;left:0;bottom:0;background:#ffffff;height:55px;z-index:99;margin-top:0}
+.is-post .blibli-tombol-beli .blibli-menu-tombol-beli{padding:0}
+.is-post .blibli-menu-tombol-beli .blibli-beli-langsung,.is-post .blibli-menu-tombol-beli .blibli-menu-tambah{float:left;width:100%;border-radius:0}
+}
+/*Tampilan Sidebar*/
+#sidebar-wrap{background:#ffffff}
+#sidebar-wrap{-webkit-box-flex:1;-ms-flex:1 1 20%;flex:1 1 20%;max-width:20%;padding:36px;-webkit-box-sizing:border-box;box-sizing:border-box}
+.is-post #sidebar-wrap{padding:0 0 0 15px}
+.is-post #sidebar-content{position:-webkit-sticky;position:sticky;top:75px;z-index:9;padding:0;border-radius:0;}
+@media only screen and (max-width:900px){.is-post #sidebar-wrap{padding:0}#sidebar-wrap{-webkit-box-flex:1;-ms-flex:1 1 100%;flex:1 1 100%;max-width:100%;padding:30px;margin-top:45px}.is-post #sidebar-content{position:relative;top:unset;z-index:3}}
+@media only screen and (max-width:480px){#sidebar-wrap{padding:22px}}
+.sidebar-content .widget{margin-bottom: 15px;box-shadow: 0 1px 4px 0 rgba(0,0,0,.14);border: 1px solid #f2f2f2;}
+.sidebar-content .widget.HTML{padding:5px;}
+.sidebar-content h2,.sidebar-content h3{margin:0 0 15px;font-size:18px;font-size:1.125rem;text-align:center}
+.sidebar-content ol,.sidebar-content ul{margin:0}
+.sidebar-content ol li,.sidebar-content ul li{padding:0;margin:10px 0}
+.sidebar-content ul{padding:0 0 0 1.25rem}
+.sidebar-content ul li{list-style-type:none;position:relative}
+.sidebar-content ul li:before{position:absolute;top:7px;left:-18px;content:" ";width:3px;height:3px;display:inline-block;opacity:.7}
+.sidebar-content ol{list-style:none;counter-reset:my-awesome-counter;padding:0}
+.sidebar-content ol li{counter-increment:my-awesome-counter}
+.sidebar-content ol li:before{content:counter(my-awesome-counter) ". ";margin-right:.5rem;display:inline-block;font-weight:700}
+.sidebar-content ul li:before{border:3px solid #383f4a}
+.sidebar-content ol li:before{color:#383f4a}
+/*Blibli Blog Pager*/
+a.blog-pager-newer-link:before,a.blog-pager-older-link:after{border:solid #0094da}
+.blog-pager a.blog-pager-newer-link,.blog-pager a.blog-pager-older-link,.blog-pager a.js-load,.blog-pager span.js-loaded,.blog-pager span.js-loading{background:#ffffff;color:#0094da}
+.js-loading:after{border:2px solid #0094da}
+.blog-pager a.js-load:hover,.blog-pager span.js-loaded:hover,.blog-pager span.js-loading:hover,a.blog-pager-newer-link:hover,a.blog-pager-older-link:hover{background:#94d1ee;color:#ffffff}
+.blog-pager{text-align:center;font-size:12px;font-size:.75rem;text-transform:uppercase}
+.blog-pager a.blog-pager-newer-link,.blog-pager a.blog-pager-older-link{display:inline-block;border-radius:4px;padding:6px 12px;-webkit-transition:all .2s;transition:all .2s}
+.blog-pager a.blog-pager-older-link{float:right}
+.blog-pager a.blog-pager-older-link:after{content:"";border-width:0 2px 2px 0;display:inline-block;padding:3px;-webkit-transform:rotate(-45deg);transform:rotate(-45deg)}
+.blog-pager a.blog-pager-newer-link{float:left}.blog-pager a.blog-pager-newer-link:before{content:"";border-width:0 0 2px 2px;display:inline-block;padding:3px;-webkit-transform:rotate(45deg);transform:rotate(45deg)}
+.blog-pager:after{content:"";display:block;clear:both}.blog-pager .js-load,.blog-pager .js-loaded,.blog-pager .js-loading{display:inline-block;border:2px solid;border-radius:8px;padding:8px 20px;font-size:16px;text-transform:none;-webkit-transition:all .2s;transition:all .2s}.blog-pager .js-loading:after{content:"";width:10px;height:10px;vertical-align:middle;margin-left:.5rem;margin-bottom:3px;border-radius:100%;display:inline-block;border-top:2px solid transparent;-webkit-animation:load-animate 1s linear infinite;animation:load-animate 1s linear infinite}
+@-webkit-keyframes load-animate{0%{-webkit-transform:rotate(0deg);transform:rotate(0deg)}50%{-webkit-transform:rotate(180deg);transform:rotate(180deg);opacity:.35}to{-webkit-transform:rotate(1turn);transform:rotate(1turn)}}@keyframes load-animate{0%{-webkit-transform:rotate(0deg);transform:rotate(0deg)}50%{-webkit-transform:rotate(180deg);transform:rotate(180deg);opacity:.35}to{-webkit-transform:rotate(1turn);transform:rotate(1turn)}}
+/*Breadcrumbs*/
+.breadcrumbs,.breadcrumbs a,.post-info,.post-info a{color:#757575}
+.breadcrumbs a:hover,.post-info a,.post-info a:hover{color:#2674a6}
+.breadcrumbs{margin:0 0 1rem;font-size:11px;font-size:.7rem}
+.breadcrumbs a,.post-body .breadcrumbs a{text-decoration:none}
+.content-single-produk .breadcrumbs{text-align:center}
+.content-single-produk .breadcrumbs,.content-single-produk .post-outer-single{-webkit-box-flex:1;-ms-flex:1 1 100%;flex:1 1 100%;max-width:100%}
+/*Comment*/
+.avatar-image-container img.author-avatar {width: 100%;}
+label.thread-toggle.thread-expanded {float: none;padding: 0;color: #444;text-align: left;}
+.comment-add .comment-reply{display:block;padding:8px;border:1px solid #161617;border-radius:5px;font-size:13px;color:#161617;text-align:center;cursor:pointer}
+.comment-add .hidden, .comment-add .comment-reply.hidden{display:none}
+.show-comment a:hover, .comment-add .comment-reply:hover{border-color:#989b9f;color:#989b9f}
+.comments{margin-top:30px}
+.comments .comments-content{margin-bottom:35px}
+.comments .comment-disable{text-align:center}
+.comments ol, .comments ul{list-style:none;margin:0;padding:0}
+.comments li{position:relative;padding:15px 20px;border-radius:8px;background-color:rgba(255,255,255,.7);box-shadow:0 4px 18px 0 rgba(9,32,76,.035)}
+.comments li:not(:last-child){margin-bottom:15px}
+.comments li a{color:inherit}
+.comments li .avatar-image-container{position:absolute;width:40px;height:40px;border-radius:50%;overflow:hidden;background-color:#ebeced}
+.comments li .comment-header{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;height:40px;margin:0 0 20px 50px;padding:3px 0}
+.comments li .comment-header .datetime{width:100%;font-size:11px;}
+.comments li .comment-header .datetime a{color:#989b9f}
+.comments li .comment-header .user{flex:0 0 auto;display:flex;align-items:center;font-size:13px;font-weight:700;font-family:'Ubuntu', sans-serif;color:#161617}
+.comments li .comment-header .user span{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;max-width:120px}
+.comments li .comment-header .user svg{width:16px;height:16px;fill:#519bd6;margin:0 0 0 5px}
+.comments li .comment-content{line-height:1.58em;overflow:hidden;text-overflow:ellipsis}
+.comments li .comment-actions, .comments li .comment-replies .comment-reply{margin:8px 0 0 auto;font-size:13px}
+.comments li .comment-replies + .comment-actions{display:none}
+.comments li .comment-replies{margin:8px 0 0 auto}
+.comments li .comment-replies .thread-toggle{display:flex;align-items:center;font-size:13px;}
+.comments li .comment-replies .thread-toggle svg, .comments li .comment-replies .comment-reply svg, .comments li .comment-actions svg{width:14px;height:14px;margin-right:5px}
+.comments li .comment-replies .thread-show:checked + .comment-thread .thread-toggle svg{-webkit-transform:rotate(180deg);transform:rotate(180deg)}
+.comments li .comment-replies .thread-show:checked + .comment-thread .thread-chrome,
+.comments li .comment-replies .thread-show:checked + .comment-thread + .comment-reply{display:none}
+.comments li .comment-replies .thread-chrome{margin-top:20px}
+.comments li .comment-replies .comment-reply{width:calc(100% - 55px);display:flex;align-items:center;}
+.comments li .comment-replybox-single{margin-top:20px}
+.comments li li{display:flex;align-items:flex-start;flex-wrap:wrap;padding:0;background-color:transparent;box-shadow:none}
+.comments li li:not(:last-child){margin-bottom:10px}
+.comments li li .avatar-image-container{position:-webkit-sticky;position:sticky;top:67px;width:32px;height:32px}
+.comments li li .comment-block{width:calc(100% - 70px);margin-left:auto;padding:12px 15px 15px;background-color:#ebeced;border-radius:15px}
+.comments li li .comment-header{height:initial;margin:0 0 10px;padding:0}
+.comments li li .comment-header .datetime{width:initial}
+/*Profile Admin*/
+.author-profile.icon-admin{margin:0;position:relative;float:left;display:inline-block}
+.author-profile:after{content:"";display:block;clear:both}
+.author-profile .author-image{margin-right:1rem;display:block;float:left;width:45px;border-radius:50px}
+.author-profile.icon-admin .author-image{float:none;width:50px;margin-right:7px}
+.author-profile .author-about .author-name{display:block;font-weight:700;margin-bottom:6px;position:relative;padding:2px 0 0 5px;font-size:20px;font-size:1.25rem;margin:5px 0 15px 45px}
+.author-profile .author-about .author-bio{display:block;font-size:12px;margin-bottom:12px}
+.author-profile .author-about .author-bio svg{width:14px;height:14px;margin-bottom:-3px;margin-right:5px}
+.author-profile .author-about .author-bio svg path{fill:#444}
+.marketplace-icon{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:horizontal;-webkit-box-direction:normal;-ms-flex-flow:row wrap;flex-flow:row wrap;margin:5px auto;width:100%;font-size:13px;overflow-x:auto;overflow-y:hidden;white-space:nowrap;transition:all .5s;padding:5px 0;border-top:1px solid #ddd;border-bottom:1px solid #ddd}
+.marketplace-icon a{-webkit-box-flex:1;-ms-flex:1 1 16.67%;flex:1 1 auto;width:16.67%;-webkit-box-sizing:border-box;box-sizing:border-box;margin:0 auto}
+.marketplace-icon img{width:25px;height:25px;display:block;text-align:center;margin:auto}
+.tombol-profile-link {display: -ms-flexbox;display: flex;-ms-flex-align: center;align-items: center;margin-top: 15px;}
+.tombol-profile-link .tombol-follow {padding: 5px 10px;font-size: 12px;font-weight: 600;border-radius: 8px;color: #fff;background-color: #0095da;border-color: #0095da;-webkit-transition: background-color .4s,border-color .4s;transition: background-color .4s,border-color .4s;display: flex;-webkit-box-pack: center;justify-content: center;-webkit-box-align: center;align-items: center;margin-right: 5px;width: 48%;}
+.profile-link {padding: 5px 10px;font-size: 12px;font-weight: 600;border-radius: 8px;color: #0095da;background-color: #fff;border-color: #0095da;border:1px solid #2674a6;color:#2674a6;-webkit-transition: background-color .4s,border-color .4s;transition: background-color .4s,border-color .4s;display: flex;-webkit-box-pack: center;justify-content: center;-webkit-box-align: center;align-items: center;margin-left: 5px;width: 48%;}
+/*Upload Product*/
+.is-page #all-input{box-sizing:border-box;padding:25px;border:1px solid #ddd;border-radius:20px;margin:20px 0}
+.is-page #all-input input,.is-page #all-input textarea{padding:15px 0;outline:none;border:none;border-bottom:1px solid #ddd;border-radius:0;margin:0 10px;font-size:14px}
+.is-page #all-input pre{background:#eee;padding:15px;border-radius:15px;overflow:scroll;cursor:text;font-size:14px;color:#000;max-height:500px}
+.is-page #all-input textarea{width:100%;min-height:200px;border:1px solid #ddd;border-radius:15px;margin:0;padding:15px}
+.is-page #all-input button{background:#fff;color:#1976d2;padding:8px 15px;outline:none;border:1px solid #ddd;cursor:pointer;font-weight:700;border-radius:5px;margin:10px 5px;transition:all .3s ease-in-out}
+.is-page #all-input button:hover{background:#0095da;color:#ffffff}
+.is-page #all-input button.aktif{background:#1976d2;color:#fff;border-color:#1976d2}
+.is-page #all-input button.aktif:hover{background:#115293}
+.is-page #diskon-wrap,.is-page #results,#default-save,.is-page #pilihan-wrap{display:none}
+.is-page #diskon-wrap.aktif,.is-page #pilihan-wrap.aktif{display:block}
+.is-page #all-input h4{background:#0095da;border-radius:10px;display:block;overflow:hidden}
+.is-page #all-input h4 b{font-size:14px;color:#ffffff;border-left:4px solid #333333;display:inline-block;padding:8px 15px;border-radius:10px}
+.is-page #all-input input#formmin,.is-page #all-input input#formmax{width:auto;float:left}
+.is-page button#request-code,.is-page button#reset-html{background:#007eb8!important;font-weight:700;color:#fff;padding:10px 15px;margin:20px 0}
+.is-page .info-box{font-weight:500;color:#555;background:#9bd7f3;display:inline-block;padding:5px 10px;border-radius:10px;line-height:1.6;margin:10px 5px;font-size:12px;}
+.is-page div.info-box{display:block;font-size:13.5px;line-height:1.7;padding:10px 15px}
+.is-page .right{float:right}#all-input .input-field{overflow:hidden}
+.is-page button#reset-html.redx{background:#cc2e3d!important}
+.is-page #results{position:relative;}
+.is-page .confirmation{background:#feba01;color:#383838;padding:10px 15px;border-radius:7px;display:none;position:absolute;top:10px;left:10px}
+.clear{clear:both}
+/* word deskripsi */
+.tox:not([dir=rtl]) .tox-statusbar__branding{display:none}
+.tox.tox-tinymce{margin-top:20px;background:#fff;border-radius:10px;border:1px solid #ddd}
+.tox .tox-insert-table-picker{width:170px!important}
+.output{position:relative;width:auto;box-sizing:border-box}
+.output *{box-sizing:border-box}
+.output textarea{margin-top:20px;display:block;width:100%;min-height:250px}
+.tox .tox-pop__dialog{border-radius:10px!important}
+.tox .tox-statusbar__resize-handle{margin-right:-5px!important;margin-bottom:3px}
+.contentword button,.tox .tox-split-button{background:#fff;cursor:pointer!important;font-weight:700!important;border-radius:5px!important;margin:5px!important;transition:all .3s ease-in-out!important;box-shadow:0 1px 2px rgb(0 0 0 / 53%)!important}
+.contentword button:hover,.tox .tox-split-button:hover{color:#fff!important;cursor:pointer!important}
+.tox .tox-tbtn:hover svg{fill:#fff!important}
+button.tox-statusbar__wordcount{box-shadow:none!important;border:none!important}
+.tox .tox-edit-area{border-left:5px solid #ddd;border-right:5px solid #ddd}
+.tox .tox-statusbar__path>*{padding-top:12px}
+.tox .tox-menubar,.tox .tox-toolbar,.tox .tox-toolbar__overflow,.tox .tox-toolbar__primary{background:#fff!important}
+/*Dark Mode*/
+.darkmode-switch{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-ordinal-group:2;-ms-flex-order:1;order:1;-webkit-box-align:center;-ms-flex-align:center;align-items:center;margin-left:15px}
+.darkmode-switch .switch{position:relative;display:inline-block;width:20px;height:20px;vertical-align:-3px;margin:2px 2px 3px 2px}
+.darkmode-switch .switch input{opacity:0;width:0;height:0}.darkmode-switch .slider{position:absolute;cursor:pointer;border-radius:34px;top:0;left:0;right:0;bottom:0;-webkit-transition:.2s;transition:.2s}
+.darkmode-switch .slider:before{position:absolute;content:"";border-radius:50%;height:12px;width:12px;left:2px;bottom:2px;-webkit-transition:.2s;transition:.2s}.darkmode-switch input:checked+.slider{background-color:#2196F3;border:2px solid #fff}
+.darkmode-switch input:checked+.slider:before{background:#fff}
+.darkmode-switch .switch-title{color:#ffffff;margin-bottom:3px}
+.darkmode-switch .slider{border:2px solid #ffffff}
+.darkmode-switch .slider:before{background:#ffffff}
+.darkmode-switch .switch:hover .slider:before{background:#007db8}
+@media only screen and (max-width:900px){
+.darkmode-switch.dekstop{display:none;}
+span.darkmode-switch{background:transparent;margin-top:8px}
+.darkmode-switch .switch{margin:0 auto;width:30px}
+.darkmode-switch .slider {border: 2px solid #333333;}
+.darkmode-switch .slider:before {background: #333333;}
+.darkmode-switch input:checked+.slider:before {-webkit-transform: translateX(13px);transform: translateX(13px);}
+}
+body.darkmode,body.darkmode .blibli-background-color{background:#353535;color:#eee}
+body.darkmode a:link{color:#eee;-webkit-transition:all .2s;transition:all .2s}
+body.darkmode a:visited{color:#eee}body.darkmode a:hover{color:#fff}
+body.darkmode #sidebar-wrap a:link{color:#eee}
+body.darkmode #sidebar-wrap a:visited{color:#eee}
+body.darkmode #sidebar-wrap a:hover{color:#fff}
+body.darkmode #header-wrap{background:#2b2b2b}
+body.darkmode #header-content{background:#232323}
+body.darkmode #content-wrap,body.darkmode #wrapper{background:#323232}
+body.darkmode #header .widget,body.darkmode #header .widget a,body.darkmode .blibli-related-product .post-title a,body.darkmode .blibli-related-product .widget-harga-wrap,body.darkmode .blibli-kategori-product .post-title a,body.darkmode .blibli-kategori-product .produk_diskon.show{color:#eee}
+body.darkmode #header .widget p.title-description{color:#bbb}
+body.darkmode .iconsearch-label{background:#2b2b2b}
+body.darkmode .iconsearch-label:hover{background:#000}
+body.darkmode div#searchcontainer.opensearch,body.darkmode .search,body.darkmode .search-content{background:rgb(43, 43, 43);}
+body.darkmode .live-search{background:rgb(43, 43, 43);color:#ddd;border:1px solid #4a4848;}
+body.darkmode .iconsearch-label path,body.darkmode .submit path{fill:#eee}
+body.darkmode .darkmode-switch .switch{opacity:1}
+body.darkmode .darkmode-switch .switch-title{color:#bbb;opacity:1}
+body.darkmode .darkmode-switch .slider{border:2px solid #bbb}
+body.darkmode .darkmode-switch .slider:before{background:#eee}
+body.darkmode .darkmode-switch .switch:hover .slider:before{background:#fff}
+body.darkmode .days,body.darkmode .hours,body.darkmode .minutes,body.darkmode .seconds{background:#000;color:#fff;}
+body.darkmode #header-wrap,body.darkmode .blibli-clock-container,body.darkmode .blibli-garis-bawah,body.darkmode p.featured-more a,body.darkmode .blibli-status-produk,body.darkmode .blibli-discount,body.darkmode #blibli-halaman-kolom-satu .FollowByEmail .follow-by-email-submit,body.is-multipleitem.darkmode #content-wrap .blibli-status-produk,body.is-homepage.is-multipleitem.darkmode #content-wrap .blibli-discount,body.darkmode .blibli-kategori-product .status_produk.show,body.darkmode .blibli-related-product .status_produk.show,body.darkmode .blibli-related-product .post-title,body.darkmode .blibli-related-product .widget-harga-wrap,body.darkmode .post-image-wrap,body.darkmode .blibli-kategori-product .post-title,body.darkmode .blibli-kategori-product .widget-harga-wrap{background:#2b2b2b}
+body.darkmode #header-content,body.darkmode #bliblinavmenu-sidebar-closebtn,body.darkmode .blibli-keranjang-box a.view-cart,body.darkmode #blibli-widget-contact .ContactForm .blibliwidget-title,body.darkmode .contact-form-widget input[type=button]{background:#232323}
+body.darkmode #header-blibli-navkirikanan,body.darkmode #bliblinavmenu-wrap,body.darkmode #blibli-widget-contact .ContactForm{background:#2f2f2f}
+body.darkmode .bliblinavmenu,body.darkmode #content-wrap-page .blibli-sebelum-pemayaran a.chat-keranjang{background:#2b2b2b}
+body.darkmode #bliblinavmenu-widget-sidebar ul li a,body.is-post.darkmode .blibli-menu-tombol-beli .totalCart span.simpleCart_total,body.darkmode .blibli-spoiler label,body.is-multipleitem.darkmode #content-wrap .blibli-discount{color:#eee}
+body.darkmode #bliblinavmenu-widget-sidebar ul li a:hover,body.is-post.darkmode .blibli-menu-tombol-beli .totalCart{color:#fff}
+body.darkmode #sidebar-wrap,body.darkmode .blibli-keranjang .blibli-keranjang-box{background:#2f2f2f}
+body.darkmode .blibli-daftar-kategori h2{color:#fff}
+body.darkmode .blibli-related-product li h2.post-title a,body.darkmode #clock span,body.darkmode .blog-pager a.blog-pager-newer-link,body.darkmode .blog-pager a.blog-pager-older-link,body.darkmode .blog-pager a.js-load,body.darkmode .blog-pager span.js-loaded,body.darkmode .blog-pager span.js-loading{color:#333}
+body.darkmode .PopularPosts .blibli-produk-terlaris-title h3.title{-webkit-box-shadow:0 0 0 2px #2f2f2f;box-shadow:0 0 0 2px #2f2f2f}
+body.darkmode .blibli-deskripsi-produk .tabs, body.darkmode .blibli-background-atas-post-sidebar, body.darkmode .blibli-beli-lewat-chat, body.is-post.darkmode #blibli-relatedpost-product,body.darkmode #bliblinotifikasi span a,body.darkmode .blibli-login-button,body.darkmode #content-wrap-page .blibli-side-right{background-color:#2f2f2f}
+body.darkmode .blibli-deskripsi-produk .tabs .content{color:#2f2f2f}
+body.darkmode #content-wrap,body.darkmode #content-wrap-produk-index,body.darkmode #bliblinavmenu-widget-sidebar,body.darkmode #wrapper,body.darkmode .FeaturedPost .featured-img-bg,body.darkmode .html-jasa .blibliwidget-title h3.title,body.darkmode .html-produk .blibliwidget-title h3.title,body.darkmode .blibli-title-atas-post h2,body.darkmode .PopularPosts .blibli-produk-terlaris-info,body.darkmode .Profile .individual,body.darkmode .Profile .team,body.darkmode .related-post h4,body.darkmode .blibli-produk-keterangan-title-share{background:#323232}
+body.darkmode .blibliwidget-title:after{background:#383838}
+body.darkmode .blibliwidget-title h3.title,body.darkmode .keranjang-box sp.sub-total,body.darkmode .blibli-related-product .produk_diskon.show{color:#eee}
+body.darkmode .html-produk .blibliwidget-title:after,body.darkmode .blibli-title-atas-post:after{background:#383838}body.darkmode .html-jasa .blibliwidget-title h3.title,body.darkmode .html-produk .blibliwidget-title h3.title,body.darkmode .blibli-title-atas-post h2,body.darkmode .post-title,body.darkmode .post-title a{color:#eee}
+body.darkmode .post-title a:hover,body.darkmode .Profile .profile-link-author{color:#fff}
+body.darkmode #kategori-content-dropdown .buka,body.darkmode .tombol-kategori,body.darkmode #kategori-content-dropdown,body.darkmode #blibli-icon-kategori,body.darkmode a.blibli-whatsapp-show-chat,body.darkmode .blibli-whatsapp-header-chat,body.darkmode .post-body .blibli-widget-status-produk .blibli-status-produk,body.darkmode .post-body .blibli-widget-detail-produk ul.blibli-pilihan-varian1-satu li.item_size,body.darkmode .post-body .blibli-widget-detail-produk ul.blibli-pilihan-varian1-dua li.item_size,body.darkmode .produk-terlaris-pemisah .blibli-produk-terlaris-content .blibli-status-produk,body.darkmode #blibli-saldo{background:#2b2b2b}
+body.darkmode #kategori-content-dropdown .Label ul li a,body.darkmode #kategori-content-dropdown .Label .widget-title,body.darkmode #kategori-content-dropdown .Label ul li a, body.darkmode #kategori-content-dropdown .PageList ul li a,body.darkmode .produk-terlaris-pemisah .blibli-produk-terlaris-content .blibli-persentase-harga,body.darkmode .keranjang-box .close-keranjang a.tombol-bukatutup,body.darkmode select#wa_opsi,body.darkmode .datainput select,body.darkmode #blibli-halaman-kolom-satu .FollowByEmail{color:#fff}
+body.darkmode .datainput select{background:#000000;color:#7d7d7d}
+body.darkmode a.blibli-whatsapp-show-chat.wa-mobile {background: #fff;}
+body.darkmode #blibli-icon-kategori .widget-content,body.darkmode #blibli-saldo .widget-content,body.darkmode #blibli-saldo .saldo-saya{color:#fff!important;}
+body.darkmode #blibli-popular-product-in-home .PopularPosts .blibli-produk-terlaris-title .blibli-popular-garis,body.darkmode #blibli-kategori-in-home .blibli-produk-kategori-title .blibli-kategori-garis{border-bottom:1px solid #eee;}
+body.darkmode #blibli-halaman-bawah-utama,body.darkmode .keranjang-box .itemRow,body.darkmode .keranjang-box a.tombol-bukatutup,body.darkmode .keranjang-box a.view-cart,body.darkmode a.send_form,body.is-post.darkmode .blibli-menu-tombol-beli .blibli-beli-langsung,body.is-post.darkmode .blibli-menu-tombol-beli .blibli-menu-tambah,body.darkmode .Profile .individual .profile-info .tombol-follow,body.darkmode .Profile .individual .profile-info .profile-link{background:#232323;}
+body.darkmode .keranjang-box,body.darkmode select#wa_opsi,body.darkmode select#wa_pembayaran,body.darkmode select#bliblishipping,body.darkmode .datainput input,body.darkmode .datainput textarea{background-color:#000000;}
+body.darkmode .Profile .individual .profile-info .tombol-follow,body.darkmode .Profile .individual .profile-info .profile-link{border:1px solid #232323}
+body.darkmode .breadcrumbs,body.darkmode .breadcrumbs a,body.darkmode .post-info,body.darkmode .post-info a{color:#bbb}
+body.darkmode .breadcrumbs a:hover,body.darkmode .post-info a:hover{color:#fff}
+body.darkmode .FeaturedPost .post-summary,body.darkmode .FeaturedPost .post-summary .featured-info,body.is-post.darkmode .blibli-tombol-beli{background:#2f2f2f}
+body.darkmode select.blibli-opsi-produk.item_size{background:#323232;color:#fff}
+body.darkmode .empty-cart svg path{fill:#8f9598;}
+body.darkmode .sidebar-content ul li:before{border:3px solid #eee}
+body.darkmode .sidebar-content ol li:before{color:#eee}
+body.darkmode .PopularPosts .blibli-produk-terlaris-snippet{color:#bbb}
+body.darkmode .PopularPosts .popular-post-title a{color:#eee}
+body.darkmode .PopularPosts .popular-post-title a:hover{color:#fff}
+body.darkmode .Profile{color:#eee}
+body.darkmode .Profile .location path,body.darkmode .author-profile .author-about .author-bio svg path{fill:#eee}
+body.darkmode .FollowByEmail{background:#2d2d2d;color:#bbb}
+body.darkmode .FollowByEmail::-webkit-input-placeholder{color:#666;opacity:.9}
+body.darkmode .FollowByEmail::-moz-placeholder{color:#666;opacity:.9}
+body.darkmode .FollowByEmail:-ms-input-placeholder{color:#666;opacity:.9}
+body.darkmode .FollowByEmail::-ms-input-placeholder{color:#666;opacity:.9}
+body.darkmode .FollowByEmail::placeholder{color:#666;opacity:.9}
+body.darkmode .FollowByEmail .follow-by-email-address{background:#fff}
+body.darkmode .label-size a.label-name{border:1px solid #eee}
+body.darkmode .label-size a.label-name:hover{border:1px solid #fff}
+body.darkmode .blibli-lihat-sekarang a,body.darkmode #blibli-halaman-kredit,body.darkmode #blibli-content-kredit{background:#282828;color:#eee}
+body.darkmode #blibli-content-kredit a{color:#eee}
+body.darkmode #blibli-content-kredit a:hover,body.is-post.darkmode .blibli-whishlist span.icon-whishlist a{color:#fff}
+body.darkmode form.whatsapp-form{background:#fff}
+body.darkmode #blibli-halaman-kolom-satu .blibli-bantuan i.contact1{background:url("data:image/svg+xml;charset=utf8,<svg xmlns='http://www.w3.org/2000/svg' width='22' height='22' viewBox='0 0 24 24'><path fill='%23eee' d='M12,1C7,1 3,5 3,10V17A3,3 0 0,0 6,20H9V12H5V10A7,7 0 0,1 12,3A7,7 0 0,1 19,10V12H15V20H19V21H12V23H18A3,3 0 0,0 21,20V10C21,5 16.97,1 12,1Z'/></svg>")}
+body.darkmode .blibli-spoiler input[type=checkbox]~label:after{background-image:url("data:image/svg+xml,<svg viewBox='0 0 512 512' xmlns='http://www.w3.org/2000/svg'><path d='M256 294.1L383 167c9.4-9.4 24.6-9.4 33.9 0s9.3 24.6 0 34L273 345c-9.1 9.1-23.7 9.3-33.1.7L95 201.1c-4.7-4.7-7-10.9-7-17s2.3-12.3 7-17c9.4-9.4 24.6-9.4 33.9 0l127.1 127z' fill='%23eee'/></svg>");}
+body.darkmode #blibli-halaman-kolom-satu .LinkList ul li i.waktu{background:url("data:image/svg+xml;charset=utf8,<svg xmlns='http://www.w3.org/2000/svg' width='22' height='22' viewBox='0 0 24 24'><path fill='%23eee' d='M12,2C6.47,2 2,6.5 2,12A10,10 0 0,0 12,22C14.25,22 16.33,21.24 18,20V17.28C16.53,18.94 14.39,20 12,20A8,8 0 0,1 4,12A8,8 0 0,1 12,4C15.36,4 18.23,6.07 19.41,9H21.54C20.27,4.94 16.5,2 12,2M11,7V13L16.25,16.15L17,14.92L12.5,12.25V7H11M20,11V18H22V11H20M20,20V22H22V20H20Z'/></svg>")}
+body.darkmode #blibli-halaman-kolom-satu .LinkList ul li i.kontak{background:url("data:image/svg+xml;charset=utf8,<svg xmlns='http://www.w3.org/2000/svg' width='22' height='22' viewBox='0 0 24 24'><path fill='%23eee' d='M6.62,10.79C8.06,13.62 10.38,15.94 13.21,17.38L15.41,15.18C15.69,14.9 16.08,14.82 16.43,14.93C17.55,15.3 18.75,15.5 20,15.5A1,1 0 0,1 21,16.5V20A1,1 0 0,1 20,21A17,17 0 0,1 3,4A1,1 0 0,1 4,3H7.5A1,1 0 0,1 8.5,4C8.5,5.25 8.7,6.45 9.07,7.57C9.18,7.92 9.1,8.31 8.82,8.59L6.62,10.79Z'/></svg>")}
+body.darkmode #blibli-halaman-kolom-satu .LinkList ul li i.email{background:url("data:image/svg+xml;charset=utf8,<svg xmlns='http://www.w3.org/2000/svg' width='22' height='22' viewBox='0 0 24 24'><path fill='%23eee' d='M20,8L12,13L4,8V6L12,11L20,6M20,4H4C2.89,4 2,4.89 2,6V18A2,2 0 0,0 4,20H20A2,2 0 0,0 22,18V6C22,4.89 21.1,4 20,4Z'/></svg>")}
+body.darkmode #blibli-halaman-kolom-satu .LinkList ul li i.alamat{background:url("data:image/svg+xml;charset=utf8,<svg xmlns='http://www.w3.org/2000/svg' width='22' height='22' viewBox='0 0 24 24'><path fill='%23eee' d='M12,2C15.31,2 18,4.66 18,7.95C18,12.41 12,19 12,19C12,19 6,12.41 6,7.95C6,4.66 8.69,2 12,2M12,6A2,2 0 0,0 10,8A2,2 0 0,0 12,10A2,2 0 0,0 14,8A2,2 0 0,0 12,6M20,19C20,21.21 16.42,23 12,23C7.58,23 4,21.21 4,19C4,17.71 5.22,16.56 7.11,15.83L7.75,16.74C6.67,17.19 6,17.81 6,18.5C6,19.88 8.69,21 12,21C15.31,21 18,19.88 18,18.5C18,17.81 17.33,17.19 16.25,16.74L16.89,15.83C18.78,16.56 20,17.71 20,19Z'/></svg>")}
+body.is-post.darkmode .blibli-whishlist span.icon-whishlist i{background: url("data:image/svg+xml;charset=utf8,<svg xmlns='http://www.w3.org/2000/svg' width='22' height='22' viewBox='0 0 24 24'><path fill='%23fff' d='M12.1,18.55L12,18.65L11.89,18.55C7.14,14.24 4,11.39 4,8.5C4,6.5 5.5,5 7.5,5C9.04,5 10.54,6 11.07,7.36H12.93C13.46,6 14.96,5 16.5,5C18.5,5 20,6.5 20,8.5C20,11.39 16.86,14.24 12.1,18.55M16.5,3C14.76,3 13.09,3.81 12,5.08C10.91,3.81 9.24,3 7.5,3C4.42,3 2,5.41 2,8.5C2,12.27 5.4,15.36 10.55,20.03L12,21.35L13.45,20.03C18.6,15.36 22,12.27 22,8.5C22,5.41 19.58,3 16.5,3Z'/></svg>");}
+body.is-post.darkmode .blibli-produk-keterangan-title-share .blibli-buka-share i{background: url("data:image/svg+xml;charset=utf8,<svg xmlns='http://www.w3.org/2000/svg' width='22' height='22' viewBox='0 0 24 24'><path fill='%23fff' d='M11 9V5L18 12L11 19V14.9C6 14.9 2.5 16.5 0 20C1 15 4 10 11 9M17 8V5L24 12L17 19V16L21 12L17 8Z'/></svg>");}
+@media only screen and (max-width:899px){body.darkmode #kategori-content-dropdown .Label .widget-title svg path{fill:#fff;}body.darkmode #kategori-content-dropdown .Label .widget-title h3.title{color:#fff;}body.darkmode #kategori-content-dropdown .buka{#2b2b2b}}
+/*Tombol Share*/
+.blibli-whishlist {display: table-cell;vertical-align: middle;width: 50%;padding-right: 10px;text-align: center;cursor: pointer;font-size: 14px;}
+.blibli-whishlist span.icon-whishlist a{text-decoration:none;vertical-align:7px;color:#444}
+.blibli-whishlist span.icon-whishlist i{background: url("data:image/svg+xml;charset=utf8,<svg xmlns='http://www.w3.org/2000/svg' width='22' height='22' viewBox='0 0 24 24'><path fill='%23444' d='M12.1,18.55L12,18.65L11.89,18.55C7.14,14.24 4,11.39 4,8.5C4,6.5 5.5,5 7.5,5C9.04,5 10.54,6 11.07,7.36H12.93C13.46,6 14.96,5 16.5,5C18.5,5 20,6.5 20,8.5C20,11.39 16.86,14.24 12.1,18.55M16.5,3C14.76,3 13.09,3.81 12,5.08C10.91,3.81 9.24,3 7.5,3C4.42,3 2,5.41 2,8.5C2,12.27 5.4,15.36 10.55,20.03L12,21.35L13.45,20.03C18.6,15.36 22,12.27 22,8.5C22,5.41 19.58,3 16.5,3Z'/></svg>");background-repeat:no-repeat;height:22px;width:22px;display:inline-block;margin:1px;padding:0}
+#blibli-produk-share{position: relative;display: table;width: 100%;padding: 5px 0;border-bottom: 1px solid #ddd;}
+.blibli-produk-title-share{position: relative;display: block;height:30px;margin-right: 10px;float: left;font-size: 12px;}
+.blibli-produk-keterangan-title-share{font-weight:400;display:inline-block;position:relative;margin-top:3px;}
+.blibli-produk-keterangan-title-share .blibli-buka-share i{background: url("data:image/svg+xml;charset=utf8,<svg xmlns='http://www.w3.org/2000/svg' width='22' height='22' viewBox='0 0 24 24'><path fill='%23444' d='M11 9V5L18 12L11 19V14.9C6 14.9 2.5 16.5 0 20C1 15 4 10 11 9M17 8V5L24 12L17 19V16L21 12L17 8Z'/></svg>");background-repeat:no-repeat;height:22px;width:22px;display:inline-block;margin:1px;padding:0}
+.blibli-produk-keterangan-title-share a.blibli-buka-share{text-decoration:none;color:#444}
+.blibli-produk-keterangan-title-share a.blibli-buka-share b{vertical-align:7px;margin-right:5px}
+#blibli-produk-share-icon{display:inline-block;margin-left:10px;padding-top:5px;}
+#blibli-produk-share-icon a{padding: 0;border-radius:50%;display: inline-block;font-size: 12px;color: #ffffff;margin-right: 5px;width: 25px;height: 25px;cursor: pointer;-webkit-transition: opacity .15s linear;transition: opacity .15s linear;}
+#blibli-produk-share-icon a:hover{opacity:.8}
+#blibli-produk-share-icon a svg{width:20px;height:20px;margin:2px 0 0 2px}
+#blibli-produk-share-icon a svg path{fill:#fff}
+.facebook{background:#3b5998}
+.twitter{background:#55acee}
+.linkedin{background:#0077b5}
+.pinterest{background:#cb2027}
+.whatsapp{background:#25d366}
+@media only screen and (max-width:900px){
+.tombol-beli-and-share{margin-top:10px;}
+#blibli-produk-share{border-top:1px solid #ddd;}
+}
+@media only screen and (max-width:640px){
+.blibli-whishlist{width:auto;text-align:left}
+.blibli-produk-title-share{float:right;}
+.blibli-produk-share-icon.aktif {opacity: 1;visibility: visible;}
+.blibli-produk-share-icon {position: absolute;z-index: 5;background: #fff;right: 10px;opacity: 0;visibility: hidden;padding: 10px;border-radius: 7px;margin-top: 45px;transition: all .3s ease-in-out;box-shadow: 0 2px 5px 0 rgba(0,0,0,0.08), 0 2px 10px 0 rgba(0,0,0,0.12);}
+}
+.tombol-produk{display:table;width:100%;table-layout:fixed;font-size:12px}.tombol-produk-wrap{display:table-cell;vertical-align:middle}a.blibli-link{display:block;background:#d11500;padding:5px;color:#fff;outline:0;cursor:pointer;text-align:center;border-radius:8px;border:1px solid #fff}
+.fb_iframe_widget_fluid_desktop iframe{min-width:100%!important;}
+#blibli-topup-wrap{position:relative;display:none;width:100%;overflow:hidden}
+#blibli-topup{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:horizontal;-webkit-box-direction:normal;-ms-flex-flow:row wrap;flex-flow:row wrap;margin:10px auto;width:calc(100% - 20px);font-size:13px;overflow:hidden;white-space:nowrap;transition:all .5s;background:#fff;border-radius:8px;box-shadow:0 0 24px -4px rgb(0 0 0 / 12%)}
+#blibli-topup .Image{-webkit-box-flex:1;-ms-flex:1 1 50%;flex:1 1 auto;width:50%;-webkit-box-sizing:border-box;box-sizing:border-box;margin:0 auto}
+#blibli-topup .blibliwidget-title,#blibli-topup .caption{display:none}
+#saldo-wrapper {
+position: relative;
+width: 100%;
+overflow: hidden;
+z-index: 2;
+}
+#blibli-saldo {
+display: -webkit-box;
+display: -ms-flexbox;
+display: flex;
+-webkit-box-orient: horizontal;
+-webkit-box-direction: normal;
+-ms-flex-flow: row wrap;
+flex-flow: row wrap;
+margin: 2px auto;
+width: calc(100% - 0px);
+font-size: 13px;
+overflow: hidden;
+white-space: nowrap;
+transition: all .5s;
+background: #fff;
+border-radius: 8px;
+box-shadow: 0 0 24px -4px rgb(0 0 0 / 12%);
+}
+#blibli-saldo .blibliwidget-title {
+margin: 10px 0;
+text-align: left;
+}
+#blibli-saldo .blibliwidget-title h3.title {
+font-size: 14px;
+font-weight: 600;
+padding: 0;
+}
+#blibli-saldo .Image .blibliwidget-title{display:none;}
+#blibli-saldo .widget-content {
+padding: 12px;
+color: #444;
+text-align: center;
+}
+#blibli-saldo .HTML .widget-content {
+text-align: left;
+}
+#blibli-saldo .saldo-saya {
+color:#0094da;
+font-size: 16px;
+font-weight: 600;
+}
+#blibli-saldo .HTML {
+-webkit-box-flex: 1;
+-ms-flex: 1 1 50%;
+flex: 1 1 auto;
+width: 50%;
+-webkit-box-sizing: border-box;
+box-sizing: border-box;
+margin: 0 auto;
+}
+#blibli-saldo .Image {
+-webkit-box-flex: 1;
+-ms-flex: 1 1 25%;
+flex: 1 1 auto;
+width: 25%;
+max-width: 80px;
+-webkit-box-sizing: border-box;
+box-sizing: border-box;
+margin: 0 auto;
+}
+#blibli-saldo .Image img {
+width: 28px;
+padding: 10px;
+margin: 0 auto;
+border-radius: 15px;
+-webkit-box-shadow: 0 0 24px -4px rgb(0 0 0 / 12%);
+box-shadow: 0 0 24px -4px rgb(0 0 0 / 12%);
+-webkit-transition: -webkit-transform .2s ease;
+-webkit-transition: transform .2s ease;
+transition: transform .2s ease;
+}
+#blibli-saldo .Image span.caption {
+position: relative;
+width: 100%;
+display: -webkit-box;
+-webkit-line-clamp: 2;
+-webkit-box-orient: vertical;
+white-space: initial;
+margin: 0;
+overflow: hidden;
+font-size: 12px;
+text-align: center;
+bottom: 0;
+}
+/*Halaman Error*/
+.error-page{text-align:center;-webkit-box-flex:1;-ms-flex:1 1 100%;flex:1 1 100%;max-width:100%;padding:60px 40px}.error-page h2{font-size:112px;font-size:7rem;margin:0}.error-page p{font-size:32px;font-size:2rem;margin:0 0 1rem}.license-code,#idProduct{display:none!important}
