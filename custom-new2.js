@@ -17,48 +17,74 @@ var linkverifemail = "#";
 
     $(".buttonlink-1").click(function () {
         window.location.href = linktopup;
+		$(this).find("a").attr("href",linktopup);
+		$(this).parents(".fflexx-container-buttonlink").find("a").attr("href",linktopup);
     });
 	$(".buttonlink-2").click(function () {
         window.location.href = linkwithdraw;
+		$(this).find("a").attr("href",linkwithdraw);
+		$(this).parents(".fflexx-container-buttonlink").find("a").attr("href",linkwithdraw);
     });
 	$(".buttonlink-3").click(function () {
         window.location.href = linkpoints;
+		$(this).find("a").attr("href",linkpoints);
+		$(this).parents(".fflexx-container-buttonlink").find("a").attr("href",linkpoints);
     });
 	$(".buttonlink-4").click(function () {
         window.location.href = linkride;
+		$(this).find("a").attr("href",linkride);
+		$(this).parents(".fflexx-container").find("a").attr("href",linkride);
     });
 	$(".buttonlink-5").click(function () {
         window.location.href = linkcar;
+		$(this).find("a").attr("href",linkcar);
+		$(this).parents(".fflexx-container").find("a").attr("href",linkcar);
     });
 	$(".buttonlink-6").click(function () {
         window.location.href = linkfood;
+		$(this).find("a").attr("href",linkfood);
+		$(this).parents(".fflexx-container").find("a").attr("href",linkfood);
     });
 	$(".buttonlink-7").click(function () {
         window.location.href = linksend;
+		$(this).find("a").attr("href",linksend);
+		$(this).parents(".fflexx-container").find("a").attr("href",linksend);
     });
 	$(".buttonlink-8").click(function () {
         window.location.href = linkshop;
+		$(this).find("a").attr("href",linkshop);
+		$(this).parents(".fflexx-container").find("a").attr("href",linkshop);
     });
 	$(".buttonlink-9").click(function () {
         window.location.href = linklaudry;
+		$(this).find("a").attr("href",linklaudry);
+		$(this).parents(".fflexx-container").find("a").attr("href",linklaudry);
     });
 	$(".buttonlink-10").click(function () {
         window.location.href = linkpulsa;
+		$(this).find("a").attr("href",linkpulsa);
+		$(this).parents(".fflexx-container").find("a").attr("href",linkpulsa);
     });
 	$(".buttonlink-11").click(function () {
         window.location.href = linkmore;
+		$(this).find("a").attr("href",linkmore);
+		$(this).parents(".fflexx-container").find("a").attr("href",linkmore);
     });
 	$(".buttonlink-12").click(function () {
         window.location.href = linkwhatsapp;
+		$(this).find("a").attr("href",linkwhatsapp);
     });
 	$(".buttonlink-13").click(function () {
         window.location.href = linkvoucher;
+		$(this).find("a").attr("href",linkvoucher);
     });
 	$(".buttonlink-14").click(function () {
         window.location.href = linktukar;
+		$(this).find("a").attr("href",linktukar);
     });
 	$(".buttonlink-15").click(function () {
         window.location.href = linkverifemail;
+		$(this).find("a").attr("href",linkverifemail);
     });
 
 // JS Tabs
@@ -203,4 +229,4 @@ window.addEventListener("scroll", () => {
 $(".nav__list").each(function () {
   $(this).find("a:first").addClass("active-link");
   $(this).find("a:first").trigger("click");
-});      
+});
