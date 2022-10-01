@@ -1,4 +1,67 @@
- // JS Tabs
+// JS Link
+var linktopup = "https://jgjk.mobi/act/topup";
+var linkwithdraw = "https://jgjk.mobi/act/withdraw";
+var linkpoints = "action://act/customer_points";
+var linkride = "#";
+var linkcar = "#";
+var linkfood = "https://jgjk.mobi/m/61bb7711a42fc";
+var linksend = "#";
+var linkshop = "https://jgjk.mobi/m/61c25c8b611a7";
+var linklaudry = "https://jgjk.mobi/m/61c8623c1435d";
+var linkpulsa = "#";
+var linkmore = "#";
+var linkwhatsapp = "https://wa.me/6283125227588";
+var linkvoucher = "https://jgjk.mobi/p/61daf46038aaa";
+var linktukar = "https://jgjk.mobi/p/61daf46038aaa";
+var linkverifemail = "#";
+
+    $(".buttonlink-1").click(function () {
+        window.location.href = linktopup;
+    });
+	$(".buttonlink-2").click(function () {
+        window.location.href = linkwithdraw;
+    });
+	$(".buttonlink-3").click(function () {
+        window.location.href = linkpoints;
+    });
+	$(".buttonlink-4").click(function () {
+        window.location.href = linkride;
+    });
+	$(".buttonlink-5").click(function () {
+        window.location.href = linkcar;
+    });
+	$(".buttonlink-6").click(function () {
+        window.location.href = linkfood;
+    });
+	$(".buttonlink-7").click(function () {
+        window.location.href = linksend;
+    });
+	$(".buttonlink-8").click(function () {
+        window.location.href = linkshop;
+    });
+	$(".buttonlink-9").click(function () {
+        window.location.href = linklaudry;
+    });
+	$(".buttonlink-10").click(function () {
+        window.location.href = linkpulsa;
+    });
+	$(".buttonlink-11").click(function () {
+        window.location.href = linkmore;
+    });
+	$(".buttonlink-12").click(function () {
+        window.location.href = linkwhatsapp;
+    });
+	$(".buttonlink-13").click(function () {
+        window.location.href = linkvoucher;
+    });
+	$(".buttonlink-14").click(function () {
+        window.location.href = linktukar;
+    });
+	$(".buttonlink-15").click(function () {
+        window.location.href = linkverifemail;
+    });
+
+// JS Tabs
 let tabss = document.querySelector(".tabss");
 let tabHeader = tabss.querySelector(".tab-header");
 let tabBody = tabss.querySelector(".tab-body");
