@@ -1214,7 +1214,7 @@ color:white;
     font-weight: 300;
     color: grey;
 }
-button.button12366 {
+button12366 {
     border: none;
     outline: 0;
     position: relative;
@@ -1241,7 +1241,7 @@ a {
     font-weight: 500;
     color: black;
 }
-button.button12366:hover {
+button12366:hover {
     opacity: ;
     border-radius: 18px;
     background-color: var(--bg-color);
@@ -1286,12 +1286,12 @@ border-bottom-right-radius: 50px;
 box-shadow: inset -0px 0px 0px #dde1e7, inset -4px 0px 2px rgba(94, 104, 121, 0.292);
 }
 
-p,button.button1{
+p,button1{
     font-family: "Arial",sans-serif;
     font-size: 10px;
 
 }
-button.button1{
+button1{
 position: absolute;
     background-color: var(--customColor);
     border: none;
